@@ -1,0 +1,55 @@
+.testDiv {
+  width: 50vw;
+  max-width: 400px;
+  height: 30vh; /* Mengatur tinggi menjadi 50% dari tinggi layar */
+  padding: 10px;
+  background-color: var(--light);
+  border-radius: 12px;
+  box-shadow: 2.70026px 5.40053px 8.10079px 0px rgba(61, 37, 131, 0.12);
+}
+.testDiv img {
+  object-fit: cover;
+}
+
+.testDiv > div:nth-child(1) {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 6px;
+}
+.testDiv > div:nth-child(2) {
+  text-align: center;
+}
+.testDiv > div:nth-child(2) p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.testDiv > div:nth-child(2) button {
+  outline: none;
+  border: none;
+  background-color: #ffffff;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  border-radius: 48px;
+}
+
+.testDiv > div:nth-child(2) button img {
+  width: 100%;
+  height: auto;
+}
+
+.testDiv > div:nth-child(2) button:hover {
+  transform: translateY(-0.2rem);
+  transition: transform 150ms;
+}
+.testOption {
+  display: flex;
+  gap: 5px;
+  justify-content: flex-end; /* Mengatur rata kanan */
+}
