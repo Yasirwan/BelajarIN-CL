@@ -5,8 +5,8 @@
   left: 0;
   width: 280px;
   height: 100%;
-  background: white;
-  z-index: 2000;
+  background: rgb(141,142,167);
+background: linear-gradient(180deg, rgba(141,142,167,1) 0%, rgba(197,212,219,1) 100%);
   font-family: var(--lato);
   transition: 0.5s ease-out;
   overflow-x: hidden;
@@ -26,7 +26,7 @@
   box-shadow: rgba(151, 170, 210, 0.2) 0px 7px 29px 0px;
 }
 #sidebar .logo img {
- width: 120px;
+ width: 150px;
 }
 #sidebar .side-menu {
   width: 100%;
@@ -71,13 +71,14 @@
 
 #content nav {
   height: 75px;
-  background: white;
+  background: rgb(141,142,167);
+background: linear-gradient(90deg, rgba(141,142,167,1) 0%, rgba(197,212,219,1) 100%);
   padding: 0 24px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   grid-gap: 24px;
-  box-shadow: rgba(151, 170, 210, 0.2) 0px 7px 29px 0px;
+  box-shadow: rgba(151, 170, 210, 0.3) 0px 7px 29px 0px;
   position: sticky;
   top: 0;
   left: 0;
@@ -104,17 +105,17 @@
 #content nav .menuIcon:hover {
   transform: translateY(-0.2rem);
   transition: transform 150ms;
-  color: var(--red);
+  color: var(--bblue);
 }
 #content nav .nav-link {
   font-size: 16px;
   transition: 0.3s ease;
 }
 #content nav .nav-link:hover {
-  color: var(--red);
+  color: var(--bblue);
 }
 #content nav .nav-link span {
-  color: var(--red);
+  color: var(--bblue);
 }
 #content nav .navIcon {
   display: flex;

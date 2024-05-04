@@ -8,8 +8,8 @@ import { Dropdown } from "antd";
 import SidebarItem from "./SideBarItem"
 
 // Image imports
-import user from "../../Assets/useravatar.png";
-import logo from "../../Assets/logo.png";
+import user from "../../Assets/user.png";
+import logo from "../../Assets/logoInt.png";
 
 // Icon imports
 import { BiLogOut } from "react-icons/bi";

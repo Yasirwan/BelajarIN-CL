@@ -5,21 +5,23 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  background: rgb(255,209,67);
-background: linear-gradient(140deg, rgba(255,209,67,1) 0%, rgba(255,134,158,1) 50%, rgba(146,0,0,1) 100%);
+  background: #C5D4DB;
 }
 .loginContainer {
-  width: 900px;
+  width: 1000px;
   margin: 0 auto;
   padding: 2rem 0;
   display: flex;
   border-radius: 40px;
-  background-color: rgba(255, 255, 255, 0.5);
+  background: rgb(118,119,134);
+  background: linear-gradient(186deg, rgba(118,119,134,1) 0%, rgb(237, 240, 241) 100%);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
 }
 .loginImage {
-  width: 43%;
+  width: 45%;
+margin-top: -70px;
+margin-left: auto;
 }
 .loginImage img {
   width: 85%;
@@ -43,7 +45,7 @@ select {
   font-size: 15px;
   letter-spacing: 1px;
   outline: none;
-  border: 1px solid var(--red);
+  border: 1px solid var(--grey);
   color: rgb(128, 128, 128);
   border-radius: 40px;
 }
@@ -58,7 +60,7 @@ input[type="submit"] {
   margin: 1rem 0;
   font-size: 15px;
   letter-spacing: 1px;
-  background-color: var(--red);
+  background-color: #716B8D;
   border: none;
   color: white;
   cursor: pointer;
@@ -71,7 +73,7 @@ input[type="submit"] {
   margin: 5px 0;
 }
 .loginDetail > div:nth-child(2) p a {
-  color: var(--red);
+  color: gray;
   font-weight: 700;
   cursor: pointer;
 }
