@@ -1,34 +1,45 @@
 .login {
-  padding-top: 3rem;
   height: 100vh;
   display: flex;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   background: #C5D4DB;
+
 }
-.loginContainer {
-  width: 1000px;
-  margin: 0 auto;
-  padding: 2rem 0;
+.loginContainerleft {
+  width: 60%;
+  height: 100%;
   display: flex;
-  border-radius: 40px;
-  background: rgb(118,119,134);
-  background: linear-gradient(186deg, rgba(118,119,134,1) 0%, rgb(237, 240, 241) 100%);
+  align-items: center;
+  justify-content: center;
+  background: #A9B1C1;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     
 }
+.loginContainerright {
+  width: 40%;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
 .loginImage {
-  width: 45%;
+  width: 80%;
 margin-top: -70px;
 margin-left: auto;
 }
 .loginImage img {
-  width: 85%;
-  margin-left: 1rem;
-}
+  width: 65%;
+  display: flex;
+  justify-content: center;}
 .loginDetail {
-  padding: 2rem 4rem;
   width: 50%;
 }
 .loginDetail > div:nth-child(1) {
@@ -45,9 +56,10 @@ select {
   font-size: 15px;
   letter-spacing: 1px;
   outline: none;
-  border: 1px solid var(--grey);
+  border: 2px solid var(--dark);
   color: rgb(128, 128, 128);
-  border-radius: 40px;
+  border-radius: 8px;
+
 }
 input[type="submit"] {
   cursor: pointer;
@@ -60,12 +72,12 @@ input[type="submit"] {
   margin: 1rem 0;
   font-size: 15px;
   letter-spacing: 1px;
-  background-color: #716B8D;
+  background-color: #8D8EA7;
   border: none;
   color: white;
   cursor: pointer;
   font-weight: 700;
-  border-radius: 40px;
+  border-radius: 8px;
 }
 .loginDetail > div:nth-child(2) p {
   color: gray;

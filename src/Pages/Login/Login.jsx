@@ -137,13 +137,16 @@ const Login = () => {
   return (
     <div className="login">
       <br />
-      <div className="loginContainer">
+      
+      <div className="loginContainerleft">
         <div className="loginImage">
           <img src={coverImage}/>
         </div>
+      </div>
+      <div className="loginContainerright">
         <div className="loginDetail">
           <div>
-          <h3 className="text-gray-700 text-xl font-medium">Studee</h3>
+          <h3 className="text-gray-700 text-xl font-medium">Welcome To BelajarIN</h3>
           </div>
 
           <div>
@@ -181,14 +184,13 @@ const Login = () => {
               {/* <button type="submit" className="p-2 my-2">LOGIN</button> */}
               <div style={{ textAlign: 'center' }}>
                 <button type="submit" className="p-2 my-2">Log in</button>
-                <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Don't have an account?</h3>
-                <button onClick={() => navigate('/register')} className="p-2 my-2" style={{ backgroundColor: '#FF869E' }}>Sign up</button>
+                <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Or</h3>
+                <button onClick={() => navigate('/register')} className="p-2 my-2" style={{ backgroundColor: 'rgb(141, 142, 167)' }}>Register</button>
               </div>
             </form>
           </div>
         </div>
       </div>
-
       {/* loading indicator */}
       {contextHolder}
       {loading ? (
