@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { studentRegister } from "../../Redux/auth/action";
 import { useNavigate } from "react-router-dom";
-import coverImage from '/img/cover.png';
+import coverImage from '/img/LogoLogin.png';
 import "./Register.css";
 
 const Register = () => {
@@ -62,28 +62,29 @@ const Register = () => {
     };
 
     return (
-        <div className="login">
-        <br />
-        <div className="loginContainer">
-          <div className="loginImage">
-            <img src={coverImage}/>
+      <div className="login">
+      <br />
+      <div className="loginContainer">
+        <div className="flex">
+          <div className="w-1/2 loginImage">
+            <img src={coverImage} className="w-full h-full object-cover"/>
           </div>
-          <div className="loginDetail">
+          <div className="w-1/2 loginDetail">
             <div>
-            <h3 className="text-gray-700 text-xl font-medium">Studee</h3>
+              <h3 className="text-gray-700 text-xl font-medium">Create Your Account</h3>
             </div>
-  
+      
             <div>
               {/* login form  */}
               <form onSubmit={handleFormSubmit}>
-              <input
+                <input
                   required
                   name="name"
                   value={formData.name}
                   onChange={handleFormChange}
                   type="text"
                   placeholder="Enter full name"
-                  className="p-2 my-2"
+                  className="p-2 my-2 border border-gray-300 rounded-md"
                 />
                 <input
                   required
@@ -92,7 +93,7 @@ const Register = () => {
                   onChange={handleFormChange}
                   type="email"
                   placeholder="Enter email"
-                  className="p-2 my-2"
+                  className="p-2 my-2 border border-gray-300 rounded-md"
                 />
                 <input
                   required
@@ -101,7 +102,7 @@ const Register = () => {
                   onChange={handleFormChange}
                   type="password"
                   placeholder="Enter password"
-                  className="p-2 my-2"
+                  className="p-2 my-2 border border-gray-300 rounded-md"
                 />
                 <input
                   required
@@ -110,17 +111,18 @@ const Register = () => {
                   onChange={handleFormChange}
                   type="text"
                   placeholder="Enter class"
-                  className="p-2 my-2"
+                  className="p-2 my-2 border border-gray-300 rounded-md"
                 />
-                <div style={{ textAlign: 'center' }}>
-                  <button type="submit" className="p-2 my-2" style={{ backgroundColor: '#FF869E' }}>Sign up</button>
-                  <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Have an account?</h3>
-                  <button onClick={() => navigate('/')} className="p-2 my-2" style={{ backgroundColor: '#920000' }}>Log in</button>
+                <div className="text-center">
+                  <button type="submit" className="p-2 my-2 bg-pink-500 rounded-md text-white">Sign up</button>
+                  <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Or</h3>
+                  <button onClick={() => navigate('/')} className="p-2 my-2 bg-red-500 rounded-md text-white">Log in</button>
                 </div>
               </form>
             </div>
           </div>
         </div>
+      </div>
   
         {/* loading indicator */}
         {contextHolder}
