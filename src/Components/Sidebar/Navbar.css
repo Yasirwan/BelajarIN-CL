@@ -154,7 +154,7 @@
 #content nav .profile p:nth-child(2) {
   font-size: 12px;
   font-weight: 400;
-  color: #E5E1DA;
+  color: (--dark);
   letter-spacing: 0.5px;
   display: flex;
   align-items: center;
@@ -250,7 +250,7 @@
   justify-content: space-between;
   align-items: center;
   font-size: 15px;
-  letter-spacing: 0.7px;
+  letter-spacing: 1px;
   text-transform: capitalize;
   color: rgba(108, 86, 82, 0.8);
   font-weight: 500;

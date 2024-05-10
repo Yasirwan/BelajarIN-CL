@@ -51,11 +51,23 @@ const Navbar = ({ children }) => {
     { icon: <PiStudent />, title: "Students", address: "/student" },
     { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
     { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
-    { icon: <TbLayoutGridAdd />, title: "Activities", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Videos", address: "/contents" },
-      { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <MdOutlineAssignment />, title: "Assignments", address: "/assignments" },
-      { icon: <CgGames />, title: "Scratchs", address: "/scratchs" },
+    { icon: <TbLayoutGridAdd />, title: "Pertemuan 1", childrens: [
+      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
+      // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
+      { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
+      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
+    ]},
+    { icon: <TbLayoutGridAdd />, title: "Pertemuan 2", childrens: [
+      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
+      // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
+      { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
+      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
+    ]},
+    { icon: <TbLayoutGridAdd />, title: "Pertemuan 3", childrens: [
+      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
+      // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
+      { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
+      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
     ]},
     { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
   ];
@@ -63,12 +75,25 @@ const Navbar = ({ children }) => {
     { icon: <GoHome />, title: "Dashboard", address: "/home" },
     // { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
-    { icon: <TbLayoutGridAdd />, title: "Activities 1", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Videos", address: "/contents" },
-      { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <MdOutlineAssignment />, title: "Assignments", address: "/assignments" },
-      { icon: <CgGames />, title: "Quiz", address: "/scratchs" },
+    { icon: <TbLayoutGridAdd />, title: "Pertemuan 1", childrens: [
+      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
+      // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
+      { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
+      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
     ]},
+    { icon: <TbLayoutGridAdd />, title: "Pertemuan 2", childrens: [
+      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
+      // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
+      { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
+      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
+    ]},
+    { icon: <TbLayoutGridAdd />, title: "Pertemuan 3", childrens: [
+      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
+      // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
+      { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
+      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
+    ]},
+    
     // { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
   ];
   // const tutorData = [
@@ -160,10 +185,9 @@ const Navbar = ({ children }) => {
             {userType == "Student" ? (
               premium == "false" ? (
                 <Link href="/" className="nav-link">
-                  Welcome to <span>BelajarIN</span>
+                  Welcome to BelajarIN
                 </Link>
-              ) : (
-                "🔥You are a premium member !"
+              ) : (""
               )
             ) : (
               <Link href="/" className="nav-link">
