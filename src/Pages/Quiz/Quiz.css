@@ -12,7 +12,7 @@
   margin: 15px 20px;
   padding: 15px 20px;
   background: white;
-  border-radius: 15px;
+  border-radius: 8px;
   box-shadow: rgba(178, 181, 184, 0.2) 0px 8px 24px;
   display: flex;
   gap: 20px;
@@ -29,13 +29,13 @@
   height: 20vh;
   margin: 15px 20px;
   padding: 15px 20px;
-  border-radius: 20px;
+  border-radius: 8px;
 }
 .singleTestDetails {
   margin: 25px 20px;
   padding: 20px;
   background: white;
-  border-radius: 15px;
+  border-radius: 8px;
   box-shadow: rgba(178, 181, 184, 0.2) 0px 8px 24px;
 }
 

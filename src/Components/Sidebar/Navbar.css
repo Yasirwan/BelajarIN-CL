@@ -127,7 +127,7 @@
   right: 170px;
   width: 18px;
   height: 18px;
-  border-radius: 50%;
+  border-radius: 8px;
   border: 2px solid var(--light);
   color: var(--light);
   font-weight: 600;
@@ -164,7 +164,7 @@
   width: 33px;
   height: 33px;
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 8px;
 }
 
 /* media queries */
@@ -238,7 +238,7 @@
   border-radius: 5px; */
   display: block;
   transition: background-color .3s;
-  border-radius: 5px;
+  border-radius: 8px;
   cursor: pointer;
   margin: 0 6px;
   padding: 4px;
@@ -255,7 +255,7 @@
   color: rgba(108, 86, 82, 0.8);
   font-weight: 500;
   background-color: #fff;
-  border-radius: 48px 48px;
+  border-radius: 8px;
   padding: 8px 0px;
   transition: background-color .3s;
 

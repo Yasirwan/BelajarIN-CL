@@ -13,9 +13,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #A9B1C1;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    
+  background: rgb(146,199,207);
+  background: linear-gradient(135deg, rgba(146,199,207,1) 0%, rgba(170,215,217,1) 23%, rgba(229,225,218,1) 100%);
 }
 .loginContainerright {
   width: 40%;
@@ -72,7 +71,7 @@ input[type="submit"] {
   margin: 1rem 0;
   font-size: 15px;
   letter-spacing: 1px;
-  background-color: #8D8EA7;
+  background-color: #92C7CF;
   border: none;
   color: white;
   cursor: pointer;

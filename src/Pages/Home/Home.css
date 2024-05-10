@@ -20,26 +20,33 @@
   justify-content: space-between;
   gap: 10px;
   padding: 30px;
-  background: rgb(255,209,67);
-  background: linear-gradient(140deg, rgba(255,209,67,1) 0%, rgba(255,134,158,1) 50%, rgba(146,0,0,1) 100%);
-  color: #fff;
-  border-radius: 10px;
-  position: relative;
+  background: rgb(146,199,207);
+  background: radial-gradient(circle, rgba(146,199,207,1) 0%, rgba(170,215,217,1) 33%, rgba(251,249,241,1) 66%, rgba(229,225,218,1) 100%);
+  color: #000000;
+  border-radius: 8px;
+  position: center;
 }
 .main .overview .overview-left p {
   width: 55%;
   font-size: 15px;
   margin-top: 4px;
   line-height: 24px;
+  display: flex;
+  justify-content: center;
+
 }
 .main .overview .overview-left button {
   background-color: transparent;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   padding: 10px 25px;
-  border-radius:40px;
+  border-radius:8px;
   letter-spacing: 1px;
   font-size: 14px;
+  position: absolute;
+  left: 150px;
+  top: 320px;
+  
 }
 .main .overview .overview-left img {
   width: 75%;
@@ -50,14 +57,16 @@
 
 .main .overview .overview-right {
   width: 70%;
+  margin: 0 auto; /* add this line */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   gap: 20px;
+  
 }
 .main .overview-right li {
   padding: 10px;
   background: white;
-  border-radius: 80px;
+  border-radius: 8px;
   box-shadow: rgba(178, 181, 184, 0.2) 0px 8px 24px;
   display: flex;
   align-items: center;
@@ -66,7 +75,7 @@
 .main .overview-right li > div {
   width: 60px;
   height: 60px;
-  border-radius: 50px;
+  border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,7 +133,7 @@
   width: 65%;
   background-color: white;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .main .charts .lineChart > div {
@@ -184,7 +193,7 @@
   width: 35%;
   background-color: white;
   padding: 30px;
-  border-radius: 10px;
+  border-radius: 8px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 .main .charts .pieChart .pieBox {
@@ -304,7 +313,7 @@
     gap: 10px;
   }
   .main .overview-right li {
-    border-radius: 10px;
+    border-radius: 8px;
     gap: 20px;
   }
   .main .overview-right li > div {

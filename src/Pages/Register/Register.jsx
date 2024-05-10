@@ -64,15 +64,15 @@ const Register = () => {
     return (
       <div className="login">
       <br />
-      <div className="loginContainer">
-        <div className="flex">
-          <div className="w-1/2 loginImage">
-            <img src={coverImage} className="w-full h-full object-cover"/>
-          </div>
-          <div className="w-1/2 loginDetail">
-            <div>
-              <h3 className="text-gray-700 text-xl font-medium">Create Your Account</h3>
-            </div>
+      <div className="loginContainer bg-gradient[#92c7cf] ">
+  <div className="flex">
+    <div className="w-1/2 loginImage">
+      <img src={coverImage} className="w-full h-full object-cover" />
+    </div>
+    <div className="w-1/2 loginDetail">
+      <div>
+        <h3 className="text-gray-700 text-xl font-medium">Create Your Account</h3>
+      </div>
       
             <div>
               {/* login form  */}

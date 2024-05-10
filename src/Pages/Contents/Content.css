@@ -11,7 +11,7 @@
   margin: 25px 20px;
   padding: 20px;
   background: white;
-  border-radius: 15px;
+  border-radius: 8px;
   box-shadow: rgba(178, 181, 184, 0.2) 0px 8px 24px;
   display: flex;
   gap: 20px;
@@ -28,7 +28,7 @@
   color: white;
   font-weight: 500;
   margin-bottom: 10px;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 .submitBtn {
   width: 100%;
@@ -40,12 +40,12 @@
   color: white;
   font-weight: 500;
   margin-bottom: 10px;
-  border-radius: 16px;
+  border-radius: 8px;
 }
 .uploadedImgDiv{
   border: 1px solid gray;
   text-align: center;
   padding: 10px;
   margin: 10px 0;
-  border-radius: 10px;
+  border-radius: 8px;
 }

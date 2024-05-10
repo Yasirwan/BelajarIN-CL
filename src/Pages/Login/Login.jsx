@@ -185,7 +185,7 @@ const Login = () => {
               <div style={{ textAlign: 'center' }}>
                 <button type="submit" className="p-2 my-2">Log in</button>
                 <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Or</h3>
-                <button onClick={() => navigate('/register')} className="p-2 my-2" style={{ backgroundColor: 'rgb(141, 142, 167)' }}>Register</button>
+                <button onClick={() => navigate('/register')} className="p-2 my-2" style={{ backgroundColor: '#92C7CF' }}>Register</button>
               </div>
             </form>
           </div>

@@ -112,16 +112,7 @@ const Home = () => {
 
           {/* overview section */}
           <div className="overview">
-            <div className="overview-left">
-              <div>
-                <h2> Welcome to Studee</h2>
-                <p>Transforming Education, Empowering Futures</p>
-              </div>
-              <div>
-                <button>Get Started !</button>
-              </div>
-              <img src={heroImage}/>
-            </div>
+            
             <div className="overview-right">
               {overviewData?.map(({ icon, title, number }, i) => {
                 return (
@@ -216,16 +207,13 @@ const Home = () => {
     </div>
     <div className="pieBox p-4">
         <div className="pieData">
-            <span className="block font-bold text-left">sarana dan prasarana pembelajaran :</span>
-            <p className="text-sm text-gray-600 text-left">
-                <ol className="list-decimal pl-4">
-                    <li>laptop (disarankan) atau handphone</li>
-                    <li>koneksi internet yang stabil</li>
-                    <li>microsoft word</li>
-                    <li>dev C++ *optional</li>
-                    <li>posisi meja dan bangku menyesuaikan kelompok dari 1-6</li>
-                    <li>baterai laptop/handphone yang cukup</li>
-                </ol>
+            <span className="block font-bold text-red-700 text-center pl-3">Read This !</span>
+            <p>&nbsp;</p>
+            <p className="text-wrap text-black-700 text-justify">
+                <ul className="list-disc pl-3">
+                    <li>Please follow the instructions for using the BelajarIN website according to the teacher's instructions. Do all sessions properly and report any errors on the website to the teacher. Thank you for helping with this research and good luck.</li>
+                    
+                </ul>
             </p>
         </div>
     </div>
