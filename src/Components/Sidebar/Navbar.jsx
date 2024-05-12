@@ -9,7 +9,7 @@ import SidebarItem from "./SideBarItem"
 
 // Image imports
 import user from "../../Assets/user.png";
-import logo from "../../Assets/logoInt.png";
+import logo from "../../Assets/LogoInt.png";
 
 // Icon imports
 import { BiLogOut } from "react-icons/bi";
