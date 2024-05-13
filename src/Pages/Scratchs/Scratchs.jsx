@@ -116,14 +116,14 @@ const Scratchs = () => {
     // if (formData.noOfQuestions > allQuestions.length) {
     //   return messageApi.open({
     //     type: "info",
-    //     content: `You only added ${allQuestions.length} out of ${formData.noOfQuestions} questions`,
+    //     content: You only added ${allQuestions.length} out of ${formData.noOfQuestions} questions,
     //     duration: 3,
     //   });
     // }
     // if (formData.noOfQuestions < allQuestions.length) {
     //   return messageApi.open({
     //     type: "info",
-    //     content: `You have added more than ${formData.noOfQuestions} questions, Please remove some questions`,
+    //     content: You have added more than ${formData.noOfQuestions} questions, Please remove some questions,
     //     duration: 3,
     //   });
     // }
@@ -175,17 +175,22 @@ const Scratchs = () => {
     <Navbar>
       <div className="scratchs">
         {contextHolder}
-        <Header Title={"Quiz"} Address={"Scratch"} />
+        <Header Title={"Session 2"} Address={"Session 2"} />
         {/* <div className="scratchData">
           {scratch?.map((data, i) => {
             return <Scratch data={data} key={i} />;
           })}
         </div> */}
-        <div className="scratchResponses">
-          {/* <p>Class : {singleScratch?.class}</p> */}
-          <p>Setelah itu, silakan akses multimedia interaktif BelajarIn dan selanjutnya selesaikan soal kuis evaluasi secara individu untuk mengukur pemahaman dan pengetahuan yang diperoleh dari multimedia tersebut</p>
-          {/* <p>Resolved : {singleScratch?.resolved == "Yes" ? "Yes" : "No"}</p> */}
-        </div>
+        <div class="container mx-auto px-4 py-8">
+  <h1 class="text-2xl font-bold text-center mb-4">Siap menguji kemampuanmu di sesi kedua?</h1>
+  <h2 class="text-xl font-semibold text-center mb-4">Kerjakan kuis evaluasi dan buktikan seberapa jago kamu!</h2>
+  <div class="flex flex-col items-center">
+    <h2 class="text-xl font-semibold text-center mb-4">Masukkan skor yang kamu dapatkan</h2>
+    <p class="text-gray-600 mb-4">Jangan lupa screenshot hasil skor kamu dan kirimkan sebagai bukti! Pastikan screenshot menunjukkan username dan skor kamu</p>
+    {/* <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Kirim Screenshot Skor</button> */}
+  </div>
+</div>
+
 
         <div class="mx-auto w-full max-w-screen-xl">
           <div class="relative" style={{ paddingTop: "75%" }}>
@@ -194,7 +199,7 @@ const Scratchs = () => {
         </div>
 
         <div className="scratchResponses bg-red-900 rounded-lg p-4 my-2">
-          <h3 className="text-white">Scratch Result</h3>
+          <h3 className="text-white">Quizziz Result</h3>
         </div>
 
         <div className="scratchResponses">
