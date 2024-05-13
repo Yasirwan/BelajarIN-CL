@@ -140,10 +140,58 @@ const Content = () => {
         <Header Title={"Video"} Address={"Video"} />
 
         {/* content component */}
-        <div className="contentData">
+        {/* <div className="contentData">
           {content?.map((data, i) => {
             return <ContentBox data={data} key={i} />;
           })}
+        </div> */}
+
+        <div className="singleContentDetails">
+          <p>Anak-anak diharapkan untuk mengunjungi multimedia interaktif BelajarIn secara individu. Setelah itu, perhatikan bahan bacaan informatika dan video pembelajaran tentang Algoritma, Naratif, Pseudocode, dan Flowchart yang ada di platform tersebut!</p>
+          {/* <p>Content Type : {singleContent?.type}</p>
+          <p>Tutor : {singleContent?.creator}</p> */}
+        </div>
+
+        <div className="lessonDiv">
+      {/* <div>
+        <img src={data.thumbnail} alt="thumbnail" />
+      </div> */}
+      <div>
+        <div>
+          <p>Buku Siswa</p>
+          <a href="https://drive.google.com/uc?export=download&id=1iipLbZlFsyCYbSRhoJMid4f28ZEhc30c" className="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl">Download</a>
+          <br></br>
+          <a target="_blank" href="https://drive.google.com/file/d/1iipLbZlFsyCYbSRhoJMid4f28ZEhc30c/view" className="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl">View</a>
+          {/* <p className="lessonTime">{data.totalTime} mins</p> */}
+        </div>
+      </div>
+    </div>
+
+        <div class="mx-auto w-full max-w-screen-xl">
+        <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Algoritma</h3>
+          <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
+            <iframe src="https://www.youtube.com/embed/fLqHSiJMMyI"
+            title="YouTube video player"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
+          </div>
+
+          <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Naratif dan Pseudocode</h3>
+          <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
+            <iframe src="https://www.youtube.com/embed/Yw6YscAMe3U&t=11s"
+            title="YouTube video player"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
+          </div>
+          
+          <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Flowchart</h3>
+          <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
+            <iframe src="https://www.youtube.com/embed/1S35wmupqn4"
+            title="YouTube video player"
+            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
+          </div>
+
         </div>
         {user?.userType !== "Student" ? (
           <div onClick={showDrawer}>

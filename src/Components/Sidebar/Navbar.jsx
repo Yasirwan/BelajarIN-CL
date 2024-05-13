@@ -50,7 +50,7 @@ const Navbar = ({ children }) => {
     // { icon: <PiChalkboardTeacher />, title: "Tutors", address: "/tutor" },
     { icon: <PiStudent />, title: "Students", address: "/student" },
     { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
-    { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
+    // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
     { icon: <TbLayoutGridAdd />, title: "Pertemuan 1", childrens: [
       { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
@@ -73,7 +73,7 @@ const Navbar = ({ children }) => {
   ];
   const studentData = [
     { icon: <GoHome />, title: "Dashboard", address: "/home" },
-    // { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
+    { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
     { icon: <TbLayoutGridAdd />, title: "Pertemuan 1", childrens: [
       { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
@@ -94,20 +94,8 @@ const Navbar = ({ children }) => {
       { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
     ]},
     
-    // { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
+    { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
   ];
-  // const tutorData = [
-  //   { icon: <GoHome />, title: "Dashboard", address: "/home" },
-  //   { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
-  //   { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
-  //   { icon: <TbLayoutGridAdd />, title: "Activities", childrens: [
-  //     { icon: <AiOutlinePlayCircle />, title: "Videos", address: "/contents" },
-  //     { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-  //     { icon: <MdOutlineAssignment />, title: "Assignments", address: "/assignments" },
-  //     { icon: <CgGames />, title: "Scratchs", address: "/scratchs" },
-  //   ]},
-  //   { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
-  // ];
 
   // Dropdown menu
   const items = [
