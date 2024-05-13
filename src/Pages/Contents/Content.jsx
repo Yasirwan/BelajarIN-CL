@@ -8,6 +8,7 @@ import Navbar from "../../Components/Sidebar/Navbar";
 import Header from "../../Components/Header/Header";
 import ContentBox from "../../Components/Content/ContentBox";
 import AddIcon from "../../Components/AddIcon/AddIcon";
+import heroImage from '/img/hero2.png';
 
 //css imports
 import { Button, Drawer, Space, Spin, message } from "antd";
@@ -146,10 +147,25 @@ const Content = () => {
           })}
         </div> */}
 
-        <div className="singleContentDetails">
-          <p>Ayo, pelajari Algoritma, Naratif, Pseudocode, dan Flowchart dengan cara yang seru! Pada sesi pertama ini, kami akan membantumu untuk belajar dengan mendownload bahan bacaan dan menonton video menarik.</p>
-          {/* <p>Content Type : {singleContent?.type}</p>
-          <p>Tutor : {singleContent?.creator}</p> */}
+        <div class="m-6 p-4 bg-white rounded-lg shadow-md">
+          <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
+            <div class="flex flex-col md:flex-row md:items-center"> 
+              <div class="overview-left mr-4 md:mr-8">
+                <img class="md:w-48" src={heroImage} alt="Hero Image"/>
+              </div>
+            </div>
+
+            <div class="overview-right ml-4 md:ml-8">
+              <div class="container mx-auto">
+                <h1 class="text-xl font-bold mb-2">          Ayo, pelajari Algoritma, Naratif, Pseudocode, dan Flowchart dengan cara yang seru!</h1>
+                <div class="flex flex-col items-start">
+                  <p class="text-gray-600 mb-4">
+                    Pada sesi pertama ini, kami akan membantumu untuk belajar dengan mendownload bahan bacaan dan menonton video menarik.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="singleContentDetails ">

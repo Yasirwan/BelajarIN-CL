@@ -8,6 +8,7 @@ import Navbar from "../../Components/Sidebar/Navbar";
 import Header from "../../Components/Header/Header";
 import AssignmentBox from "../../Components/Assignment/AssignmentBox";
 import AddIcon from "../../Components/AddIcon/AddIcon";
+import heroImage from '/img/hero2.png';
 
 //css imports
 import { Button, Drawer, Space, Spin, message } from "antd";
@@ -146,12 +147,28 @@ const Assignment = () => {
           })}
         </div> */}
 
-        <div className="singleAssignmentDetails">
-          {/* <p>{singleAssignment?.title}</p> */}
-          {/* <p>Class : {singleAssignment?.class}</p> */}
-          <p>Anak-anak silahkan berdiskusi bersama dalam kelompok untuk menyelesaikan lembar kerja peserta didik yang terlampir di bawah ini!</p>
-          {/* <p>{singleAssignment?.type}</p> */}
-          {/* <p>Tutor : {singleAssignment?.creator}</p> */}
+        <div class="m-6 p-4 bg-white rounded-lg shadow-md">
+          <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
+            <div class="flex flex-col md:flex-row md:items-center"> 
+              <div class="overview-left mr-4 md:mr-8">
+                <img class="md:w-48" src={heroImage} alt="Hero Image"/>
+              </div>
+            </div>
+
+            <div class="overview-right ml-4 md:ml-8">
+              <div class="container mx-auto">
+                <h1 class="text-xl font-bold mb-2">Selamat kamu hampir mencapai akhir pembelajaran!</h1>
+                <div class="flex flex-col items-start">
+                  <p class="text-gray-600 mb-4">
+                   Pada akhir sesi ini, silahkan bekerja sama dalam kelompok untuk menyelesaikan tugas yang diberikan. <br/>
+                   Catat jawaban sesuai dengan format yang disediakan di bawah ini.<br/>
+                   Setelah selesai, jangan lupa untuk mengirimkan jawaban melalui formulir yang telah kami sediakan.<br/>
+                   Selamat mengerjakan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
 
         <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
