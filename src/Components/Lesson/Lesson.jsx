@@ -27,7 +27,7 @@ const Lesson = ({ data }) => {
       <div>
   <p>{data.title}</p>
   <p>{data.subject}</p>
-  <a href={data.class} className="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl">Download</a>
+  <a href={data.class} className="inline-block bg-customBlue hover:bg-customBlue text-white font-bold py-2 px-4 rounded-2xl">Download</a>
   {/* <p className="lessonTime">{data.totalTime} mins</p> */}
 </div>
 

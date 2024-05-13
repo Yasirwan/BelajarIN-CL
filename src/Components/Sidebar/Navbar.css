@@ -40,7 +40,7 @@
   color: var(--yellow);
 }
 #sidebar .side-menu.top li:last-child a {
-  color: var(--red);
+  color: var(--customBlue);
 }
 
 .logoBox {

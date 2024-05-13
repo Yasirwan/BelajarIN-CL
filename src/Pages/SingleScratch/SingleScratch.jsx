@@ -114,7 +114,7 @@ const SingleScratch = () => {
           </div>
         </div>
 
-        <div className="scratchResponses bg-red-900 rounded-lg p-4 my-2">
+        <div className="scratchResponses bg-customBlue rounded-lg p-4 my-2">
           <h3 className="text-white">Scratch Result</h3>
         </div>
         {singleScratch?.response?.map((data, i) => {
@@ -128,7 +128,7 @@ const SingleScratch = () => {
 
         <div className="scratchResponses">
         <p>Angket Web Studee</p>
-          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPMx18m2MKqi5S6mr_n0vwNUa9nsWo6XXCQxvxeRN8pU0_8A/viewform" className="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl">Go To</a>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPMx18m2MKqi5S6mr_n0vwNUa9nsWo6XXCQxvxeRN8pU0_8A/viewform" className="inline-block bg-customBlue hover:bg-customBlue text-white font-bold py-2 px-4 rounded-2xl">Go To</a>
           {/* <br></br><p>Input Link Google Drive</p> */}
           {/* <p>Input Score</p>
           <form className="responseForm" onSubmit={(e) => handleSubmit(e)}>

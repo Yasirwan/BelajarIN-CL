@@ -62,7 +62,7 @@ select {
 }
 input[type="submit"] {
   cursor: pointer;
-  background-color: var(--red);
+  background-color: var(--customBlue);
   color: white;
 }
 .loginDetail > div:nth-child(2) button {

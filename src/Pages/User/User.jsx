@@ -40,13 +40,13 @@
 //           </div>
 //           <button
 //             onClick={handleRetakeQuiz}
-//             className="fixed bottom-6 z-20 right-6 shadow-xl w-24 h-24 text-gray-100 px-4 py-2 bg-red-500 rounded-full flex justify-center items-center"
+//             className="fixed bottom-6 z-20 right-6 shadow-xl w-24 h-24 text-gray-100 px-4 py-2 bg-customBlue rounded-full flex justify-center items-center"
 //           >
 //             Retake Quiz
 //           </button>
 //           <div className="indicators flex justify-center items-center gap-2 mt-8">
 //             <div className="flex justify-center items-center"><span className="w-4 h-4 flex rounded-full bg-green-200 mr-2"></span> Correct</div>
-//             <div className="flex justify-center items-center"><span className="w-4 h-4 block rounded-full bg-red-200 mr-2"></span> Incorrect</div>
+//             <div className="flex justify-center items-center"><span className="w-4 h-4 block rounded-full bg-customBlue mr-2"></span> Incorrect</div>
 //             <div className="flex justify-center items-center"><span className="w-4 h-4 block rounded-full bg-yellow-200 mr-2"></span> Unattempted</div>
 //           </div>
 //           <div className="py-8 flex flex-col gap-4">
@@ -93,7 +93,7 @@
 //                               } ${
 //                                 question.userAnswer != question.correctAnswer &&
 //                                 question.userAnswer == option
-//                                   ? "bg-red-200"
+//                                   ? "bg-customBlue"
 //                                   : "bg-gray-50"
 //                               }`}
 //                             >
@@ -150,13 +150,13 @@ const User = () => {
           </div>
           <button
             onClick={handleRetakeQuiz}
-            className="fixed bottom-6 z-20 right-6 shadow-xl w-24 h-24 text-gray-100 px-4 py-2 bg-red-500 rounded-full flex justify-center items-center"
+            className="fixed bottom-6 z-20 right-6 shadow-xl w-24 h-24 text-gray-100 px-4 py-2 bg-customBlue rounded-full flex justify-center items-center"
           >
             Retake Quiz
           </button>
           <div className="indicators flex justify-center items-center gap-2 mt-8">
             <div className="flex justify-center items-center"><span className="w-4 h-4 flex rounded-full bg-green-200 mr-2"></span> Correct</div>
-            <div className="flex justify-center items-center"><span className="w-4 h-4 block rounded-full bg-red-200 mr-2"></span> Incorrect</div>
+            <div className="flex justify-center items-center"><span className="w-4 h-4 block rounded-full bg-customBlue mr-2"></span> Incorrect</div>
             <div className="flex justify-center items-center"><span className="w-4 h-4 block rounded-full bg-yellow-200 mr-2"></span> Unattempted</div>
           </div>
           <div className="py-8 flex flex-col gap-4">
@@ -203,7 +203,7 @@ const User = () => {
                               } ${
                                 question.userAnswer != question.correctAnswer &&
                                 question.userAnswer == option
-                                  ? "bg-red-200"
+                                  ? "bg-customBlue"
                                   : "bg-gray-50"
                               }`}
                             >

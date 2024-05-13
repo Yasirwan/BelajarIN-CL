@@ -77,7 +77,7 @@ const SingleAssignment = () => {
           {/* <p>Tutor : {singleAssignment?.creator}</p> */}
         </div>
 
-        <div className="assignmentResponses bg-red-900 rounded-lg p-4 my-2">
+        <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
           <h3 className="text-white">Fase Aplikasi</h3>
         </div>
         
@@ -92,7 +92,7 @@ const SingleAssignment = () => {
 
         <div className="assignmentResponses">
           <p>Form pengumpulan LKPD</p>
-          <a href="https://bit.ly/lkpdweek2" className="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl">Submit</a>
+          <a href="https://bit.ly/lkpdweek2" className="inline-block bg-customBlue hover:bg-customBlue text-white font-bold py-2 px-4 rounded-2xl">Submit</a>
           {/* <br></br><p>Input Link Google Drive</p> */}
           <form className="responseForm" onSubmit={(e) => handleSubmit(e)}>
             {/* <input

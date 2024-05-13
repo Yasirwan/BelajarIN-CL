@@ -297,7 +297,7 @@ const Quiz = () => {
                           </button>
                           <button
                             onClick={handleSubmitQuiz}
-                            className="bg-red-500 shadow-lg uppercase w-24 text-white rounded-sm px-4 py-2"
+                            className="bg-customBlue shadow-lg uppercase w-24 text-white rounded-sm px-4 py-2"
                           >
                             Submit
                           </button>

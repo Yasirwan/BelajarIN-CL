@@ -116,7 +116,7 @@ const Register = () => {
                 <div className="text-center">
                   <button type="submit" className="p-2 my-2 bg-pink-500 rounded-md text-white">Sign up</button>
                   <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Or</h3>
-                  <button onClick={() => navigate('/')} className="p-2 my-2 bg-red-500 rounded-md text-white">Log in</button>
+                  <button onClick={() => navigate('/')} className="p-2 my-2 bg-customBlue rounded-md text-white">Log in</button>
                 </div>
               </form>
             </div>

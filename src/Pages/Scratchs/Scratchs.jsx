@@ -9,6 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { createScratch, getScratchData } from "../../Redux/scratch/action";
 import { useNavigate } from "react-router-dom";
 import deleteImage from '/img/deletec.png';
+import heroImage from '/img/hero2.png';
 
 const Scratchs = () => {
   const [open, setOpen] = useState(false);
@@ -181,14 +182,28 @@ const Scratchs = () => {
             return <Scratch data={data} key={i} />;
           })}
         </div> */}
-        <div class="container mx-auto px-4 py-8">
-  <h1 class="text-2xl font-bold text-center mb-4">Siap menguji kemampuanmu di sesi kedua?</h1>
-  <h2 class="text-xl font-semibold text-center mb-4">Kerjakan kuis evaluasi dan buktikan seberapa jago kamu!</h2>
-  <div class="flex flex-col items-center">
-    <h2 class="text-xl font-semibold text-center mb-4">Masukkan skor yang kamu dapatkan</h2>
-    <p class="text-gray-600 mb-4">Jangan lupa screenshot hasil skor kamu dan kirimkan sebagai bukti! Pastikan screenshot menunjukkan username dan skor kamu</p>
-    {/* <button class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Kirim Screenshot Skor</button> */}
+
+<div class="m-6 p-4 bg-white rounded-lg shadow-md">
+<div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
+  <div class="flex flex-col md:flex-row md:items-center"> 
+    <div class="overview-left mr-4 md:mr-8">
+      <img class="md:w-48" src={heroImage} alt="Hero Image"/>
+    </div>
   </div>
+
+  <div class="overview-right ml-4 md:ml-8">
+    <div class="container mx-auto">
+      <h1 class="text-xl font-bold mb-2">Siap menguji kemampuanmu di sesi kedua?</h1>
+      <div class="flex flex-col items-start">
+        <p class="text-gray-600 mb-4">
+          Kerjakan kuis evaluasi dan buktikan seberapa jago kamu!<br/>
+          Masukkan skor yang kamu dapatkan<br/>
+          Jangan lupa screenshot hasil skor kamu dan kirimkan sebagai bukti! Pastikan screenshot menunjukkan username dan skor kamu
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
 </div>
 
 
@@ -198,13 +213,13 @@ const Scratchs = () => {
           </div>
         </div>
 
-        <div className="scratchResponses bg-red-900 rounded-lg p-4 my-2">
+        <div className="scratchResponses bg-customBlue rounded-lg p-4 my-2">
           <h3 className="text-white">Quizziz Result</h3>
         </div>
 
         <div className="scratchResponses">
         {/* <p>Angket Web Studee</p> */}
-          {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPMx18m2MKqi5S6mr_n0vwNUa9nsWo6XXCQxvxeRN8pU0_8A/viewform" className="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl">Go To</a> */}
+          {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPMx18m2MKqi5S6mr_n0vwNUa9nsWo6XXCQxvxeRN8pU0_8A/viewform" className="inline-block bg-customBlue hover:bg-customBlue text-white font-bold py-2 px-4 rounded-2xl">Go To</a> */}
           {/* <p>Input Link Google Drive</p> */}
           <p>Input Score</p>
           <form className="responseForm" onSubmit={(e) => handleSubmit(e)}>

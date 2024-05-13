@@ -85,7 +85,7 @@ const SingleDoubt = () => {
           {/* <p>Resolved : {singleDoubt?.resolved == "Yes" ? "Yes" : "No"}</p> */}
         </div>
 
-        <div className="doubtResponses bg-red-900 rounded-lg p-4 my-2">
+        <div className="doubtResponses bg-customBlue rounded-lg p-4 my-2">
           <h3 className="text-white">Pengetahuan Awal</h3>
         </div>
 
@@ -93,7 +93,7 @@ const SingleDoubt = () => {
           <h3 className="text-black">Silahkan jawab pertanyaan yang terdapat pada LKPD | Week 2 secara individu untuk mengukur pengetahuan awal mengenai Percabangan dan Perulangan!</h3>
         </div>
 
-        <div className="doubtResponses bg-red-900 rounded-lg p-4 my-2">
+        <div className="doubtResponses bg-customBlue rounded-lg p-4 my-2">
           <h3 className="text-white">Fase Penstrukturan Ide</h3>
         </div>
 
@@ -101,7 +101,7 @@ const SingleDoubt = () => {
           <h3 className="text-black">Lakukanlah diskusi secara berkelompok untuk mencari informasi tambahan, bertanya pertanyaan, atau mencoba berbagai pendekatan guna menambah pengetahuan baru mengenai Percabangan dan Perulangan. Lalu jawablah pertanyaan dengan tepat</h3>
         </div>
 
-        <div className="doubtResponses bg-red-900 rounded-lg p-4 my-2">
+        <div className="doubtResponses bg-customBlue rounded-lg p-4 my-2">
           <h3 className="text-white">Pengetahuan Akhir</h3>
         </div>
 
