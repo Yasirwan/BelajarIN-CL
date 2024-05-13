@@ -157,7 +157,7 @@ const Content = () => {
 
             <div class="overview-right ml-4 md:ml-8">
               <div class="container mx-auto">
-                <h1 class="text-xl font-bold mb-2">          Ayo, pelajari Algoritma, Naratif, Pseudocode, dan Flowchart dengan cara yang seru!</h1>
+                <h1 class="text-xl font-bold mb-2">Ayo, pelajari Algoritma, Naratif, Pseudocode, dan Flowchart dengan cara yang seru!</h1>
                 <div class="flex flex-col items-start">
                   <p class="text-gray-600 mb-4">
                     Pada sesi pertama ini, kami akan membantumu untuk belajar dengan mendownload bahan bacaan dan menonton video menarik.
@@ -168,6 +168,10 @@ const Content = () => {
           </div>
         </div>
 
+        <div className="singleContentDetails bg-customBlue rounded-lg p-4 my-2">
+          <h3 className="text-white font-bold text-center">Buku Siswa</h3>
+        </div>
+
         <div className="singleContentDetails ">
       {/* <div>
         <img src={data.thumbnail} alt="thumbnail" />
@@ -175,7 +179,6 @@ const Content = () => {
       
       <div className="flex justify-center">
         <div className="w-full md:w-1/2 p-4">
-          <p class="flex justify-center">Buku Siswa</p>
           <div class="flex justify-between">
             <a href="https://drive.google.com/uc?export=download&id=1iipLbZlFsyCYbSRhoJMid4f28ZEhc30c" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">Download</a>
             <a target="_blank" href="https://drive.google.com/file/d/1iipLbZlFsyCYbSRhoJMid4f28ZEhc30c/view" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">View</a>
@@ -186,6 +189,9 @@ const Content = () => {
       </div>
     </div>
 
+    <div className="singleContentDetails bg-customBlue rounded-lg p-4 my-2">
+          <h3 className="text-white font-bold text-center">Video Pembelajaran</h3>
+        </div>
         <div class="mx-auto w-full max-w-screen-xl">
         <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Algoritma</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>

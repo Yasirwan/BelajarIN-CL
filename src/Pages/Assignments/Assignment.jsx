@@ -172,7 +172,7 @@ const Assignment = () => {
         </div>
 
         <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
-          <h3 className="text-white">Fase Aplikasi</h3>
+          <h3 className="text-white font-bold text-center">Lembar Kerja Peserta Didik (LKPD)</h3>
         </div>
         
         <div className="singleAssignmentDetails">
@@ -193,22 +193,22 @@ Langkah 10: Hidangkan mi goreng dengan taburan daun bawang atau bahan lain sesua
 </p>
         </div>
 
-        <div className="assignmentResponses">
-          <p>Form pengumpulan LKPD</p>
-          {/* <a href="https://bit.ly/lkpdweek2" className="inline-block bg-customBlue hover:bg-customBlue text-white font-bold py-2 px-4 rounded-2xl">Submit</a> */}
-          {/* <br></br><p>Input Link Google Drive</p> */}
-          <form className="responseForm" onSubmit={(e) => handleSubmit(e)}>
-            <input
-              name="desc"
-              // value={desc}
-              // onChange={(e) => setDesc(e.target.value)}
-              placeholder="Description"
-            />
-            <input type="submit" />
-          {/* <p>or try this :</p>
-          <p>bit.ly/lkpdweek2</p> */}
-          </form>
+        <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
+          <h3 className="text-white font-bold text-center">Form Pengumpulan</h3>
         </div>
+
+        <div className="assignmentResponses">
+          <form className="responseForm flex flex-col" onSubmit={(e) => handleSubmit(e)}>
+              <input
+                  name="desc"
+                  className="mb-2 max-w-md mx-auto border-customBlue"
+                  // value={desc}
+                  // onChange={(e) => setDesc(e.target.value)}
+                  placeholder="Link gdrive screenshoot"
+              />
+              <input type="submit" className="bg-customBlue hover:bg-customBlue text-white py-2 px-4 rounded-2xl border-none max-w-md mx-auto" />
+          </form>
+      </div>
 
         {user?.userType !== "Student" ? (
           <div onClick={showDrawer}>

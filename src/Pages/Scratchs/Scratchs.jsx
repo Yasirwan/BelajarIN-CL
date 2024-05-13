@@ -206,6 +206,9 @@ const Scratchs = () => {
 </div>
 </div>
 
+<div className="scratchResponses bg-customBlue rounded-lg p-4 my-2">
+          <h3 className="text-white font-bold text-center">Quizziz</h3>
+        </div>
 
         <div class="mx-auto w-full max-w-screen-xl">
           <div class="relative" style={{ paddingTop: "75%" }}>
@@ -214,31 +217,30 @@ const Scratchs = () => {
         </div>
 
         <div className="scratchResponses bg-customBlue rounded-lg p-4 my-2">
-          <h3 className="text-white">Quizziz Result</h3>
+          <h3 className="text-white font-bold text-center">Form Pengumpulan</h3>
         </div>
 
         <div className="scratchResponses">
-        {/* <p>Angket Web Studee</p> */}
-          {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPMx18m2MKqi5S6mr_n0vwNUa9nsWo6XXCQxvxeRN8pU0_8A/viewform" className="inline-block bg-customBlue hover:bg-customBlue text-white font-bold py-2 px-4 rounded-2xl">Go To</a> */}
-          {/* <p>Input Link Google Drive</p> */}
-          <p>Input Score</p>
-          <form className="responseForm" onSubmit={(e) => handleSubmit(e)}>
-            <input
-              name="desc"
-              // value={desc}
-              // onChange={(e) => setDesc(e.target.value)}
-              placeholder="Screenshoot score"
-            />
-            <input
-              name="numberInput"
-              type="number"
-              // value={numberValue}
-              // onChange={(e) => setNumberValue(e.target.value)}
-              placeholder="Score"
-            />
-            <input type="submit" />
+          <form className="responseForm flex flex-col" onSubmit={(e) => handleSubmit(e)}>
+              <input
+                  name="desc"
+                  className="mb-2 max-w-md mx-auto border-customBlue"
+                  // value={desc}
+                  // onChange={(e) => setDesc(e.target.value)}
+                  placeholder="Link gdrive screenshoot"
+              />
+              <input
+                  name="numberInput"
+                  type="number"
+                  className="mb-2 max-w-md mx-auto border-customBlue"
+                  // value={numberValue}
+                  // onChange={(e) => setNumberValue(e.target.value)}
+                  placeholder="Input score"
+              />
+              <input type="submit" className="bg-customBlue hover:bg-customBlue text-white py-2 px-4 rounded-2xl border-none max-w-md mx-auto" />
           </form>
-        </div>
+      </div>
+
 
         {user?.userType !== "Student" ? (
           <div onClick={showDrawer}>
