@@ -140,11 +140,59 @@ const Assignment = () => {
         <Header Title={"Assignment"} Address={"Assignment"} />
 
         {/* assignment component */}
-        <div className="assignmentData">
+        {/* <div className="assignmentData">
           {assignment?.map((data, i) => {
             return <AssignmentBox data={data} key={i} />;
           })}
+        </div> */}
+
+        <div className="singleAssignmentDetails">
+          {/* <p>{singleAssignment?.title}</p> */}
+          {/* <p>Class : {singleAssignment?.class}</p> */}
+          <p>Anak-anak silahkan berdiskusi bersama dalam kelompok untuk menyelesaikan lembar kerja peserta didik yang terlampir di bawah ini!</p>
+          {/* <p>{singleAssignment?.type}</p> */}
+          {/* <p>Tutor : {singleAssignment?.creator}</p> */}
         </div>
+
+        <div className="assignmentResponses bg-red-900 rounded-lg p-4 my-2">
+          <h3 className="text-white">Fase Aplikasi</h3>
+        </div>
+        
+        <div className="singleAssignmentDetails">
+          <p>Jawablah titik titik dibawah ini mengenai bagaimana kalimat Naratif pada studi kasus membuat indomie goreng diubah menjadi Pseudocode, dan Flowchart!
+1.	Naratif
+Membuat Indomie Goreng
+Langkah 1: Siapkan bahan mi instan, minyak goreng, telur, sayuran, bumbu mie instan, dan air.
+Langkah 2: Buka bungkus mi instan dan masukkan mi ke dalam air mendidih.
+Langkah 3: Pecahkan telur ke dalam wajan yang sudah dipanaskan
+Langkah 4: Tambahkan sayuran yang sudah dipotong ke dalam wajan bersama telur.
+Langkah 5: Aduk telur dan sayuran.
+Langkah 6: Setelah mi empuk, tiriskan airnya dan masukkan mi ke dalam wajan bersama telur dan sayuran.
+Langkah 7: Tambahkan bumbu mie instan ke dalam mi di wajan.
+Langkah 8: Aduk semua bahan hingga tercampur rata dan bumbu merata di seluruh mi.
+Langkah 9: Setelah matang, angkat mi goreng dari wajan dan pindahkan ke dalam piring saji.
+Langkah 10: Hidangkan mi goreng dengan taburan daun bawang atau bahan lain sesuai selera.
+2.	Pseudocode
+</p>
+        </div>
+
+        <div className="assignmentResponses">
+          <p>Form pengumpulan LKPD</p>
+          {/* <a href="https://bit.ly/lkpdweek2" className="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl">Submit</a> */}
+          {/* <br></br><p>Input Link Google Drive</p> */}
+          <form className="responseForm" onSubmit={(e) => handleSubmit(e)}>
+            <input
+              name="desc"
+              // value={desc}
+              // onChange={(e) => setDesc(e.target.value)}
+              placeholder="Description"
+            />
+            <input type="submit" />
+          {/* <p>or try this :</p>
+          <p>bit.ly/lkpdweek2</p> */}
+          </form>
+        </div>
+
         {user?.userType !== "Student" ? (
           <div onClick={showDrawer}>
             <AddIcon />

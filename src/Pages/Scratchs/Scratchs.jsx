@@ -176,11 +176,50 @@ const Scratchs = () => {
       <div className="scratchs">
         {contextHolder}
         <Header Title={"Quiz"} Address={"Scratch"} />
-        <div className="scratchData">
+        {/* <div className="scratchData">
           {scratch?.map((data, i) => {
             return <Scratch data={data} key={i} />;
           })}
+        </div> */}
+        <div className="scratchResponses">
+          {/* <p>Class : {singleScratch?.class}</p> */}
+          <p>Setelah itu, silakan akses multimedia interaktif BelajarIn dan selanjutnya selesaikan soal kuis evaluasi secara individu untuk mengukur pemahaman dan pengetahuan yang diperoleh dari multimedia tersebut</p>
+          {/* <p>Resolved : {singleScratch?.resolved == "Yes" ? "Yes" : "No"}</p> */}
         </div>
+
+        <div class="mx-auto w-full max-w-screen-xl">
+          <div class="relative" style={{ paddingTop: "75%" }}>
+            <iframe src="https://quizizz.com/join?gc=85962061" allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
+          </div>
+        </div>
+
+        <div className="scratchResponses bg-red-900 rounded-lg p-4 my-2">
+          <h3 className="text-white">Scratch Result</h3>
+        </div>
+
+        <div className="scratchResponses">
+        {/* <p>Angket Web Studee</p> */}
+          {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPMx18m2MKqi5S6mr_n0vwNUa9nsWo6XXCQxvxeRN8pU0_8A/viewform" className="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl">Go To</a> */}
+          {/* <p>Input Link Google Drive</p> */}
+          <p>Input Score</p>
+          <form className="responseForm" onSubmit={(e) => handleSubmit(e)}>
+            <input
+              name="desc"
+              // value={desc}
+              // onChange={(e) => setDesc(e.target.value)}
+              placeholder="Screenshoot score"
+            />
+            <input
+              name="numberInput"
+              type="number"
+              // value={numberValue}
+              // onChange={(e) => setNumberValue(e.target.value)}
+              placeholder="Score"
+            />
+            <input type="submit" />
+          </form>
+        </div>
+
         {user?.userType !== "Student" ? (
           <div onClick={showDrawer}>
             <AddIcon />
