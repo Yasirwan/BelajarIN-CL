@@ -137,7 +137,7 @@ const Content = () => {
     <Navbar>
       <div className="content">
         {/* header component */}
-        <Header Title={"Video"} Address={"Video"} />
+        <Header Title={"Session 1"} Address={"Session 1"} />
 
         {/* content component */}
         {/* <div className="contentData">
@@ -147,28 +147,31 @@ const Content = () => {
         </div> */}
 
         <div className="singleContentDetails">
-          <p>Anak-anak diharapkan untuk mengunjungi multimedia interaktif BelajarIn secara individu. Setelah itu, perhatikan bahan bacaan informatika dan video pembelajaran tentang Algoritma, Naratif, Pseudocode, dan Flowchart yang ada di platform tersebut!</p>
+          <p>Ayo, pelajari Algoritma, Naratif, Pseudocode, dan Flowchart dengan cara yang seru! Pada sesi pertama ini, kami akan membantumu untuk belajar dengan mendownload bahan bacaan dan menonton video menarik.</p>
           {/* <p>Content Type : {singleContent?.type}</p>
           <p>Tutor : {singleContent?.creator}</p> */}
         </div>
 
-        <div className="lessonDiv">
+        <div className="singleContentDetails ">
       {/* <div>
         <img src={data.thumbnail} alt="thumbnail" />
       </div> */}
-      <div>
-        <div>
-          <p>Buku Siswa</p>
-          <a href="https://drive.google.com/uc?export=download&id=1iipLbZlFsyCYbSRhoJMid4f28ZEhc30c" className="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl">Download</a>
-          <br></br>
-          <a target="_blank" href="https://drive.google.com/file/d/1iipLbZlFsyCYbSRhoJMid4f28ZEhc30c/view" className="inline-block bg-red-800 hover:bg-red-700 text-white font-bold py-2 px-4 rounded-2xl">View</a>
+      
+      <div className="flex justify-center">
+        <div className="w-full md:w-1/2 p-4">
+          <p class="flex justify-center">Buku Siswa</p>
+          <div class="flex justify-between">
+            <a href="https://drive.google.com/uc?export=download&id=1iipLbZlFsyCYbSRhoJMid4f28ZEhc30c" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">Download</a>
+            <a target="_blank" href="https://drive.google.com/file/d/1iipLbZlFsyCYbSRhoJMid4f28ZEhc30c/view" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">View</a>
+          </div>
+
           {/* <p className="lessonTime">{data.totalTime} mins</p> */}
         </div>
       </div>
     </div>
 
         <div class="mx-auto w-full max-w-screen-xl">
-        <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Algoritma</h3>
+        <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Algoritma</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
             <iframe src="https://www.youtube.com/embed/fLqHSiJMMyI"
             title="YouTube video player"
@@ -176,7 +179,7 @@ const Content = () => {
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
           </div>
 
-          <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Naratif dan Pseudocode</h3>
+          <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Naratif dan Pseudocode</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
             <iframe src="https://www.youtube.com/embed/Yw6YscAMe3U&t=11s"
             title="YouTube video player"
@@ -184,7 +187,7 @@ const Content = () => {
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
           </div>
           
-          <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Flowchart</h3>
+          <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Flowchart</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
             <iframe src="https://www.youtube.com/embed/1S35wmupqn4"
             title="YouTube video player"
