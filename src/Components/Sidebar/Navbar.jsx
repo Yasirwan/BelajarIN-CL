@@ -58,16 +58,16 @@ const Navbar = ({ children }) => {
       { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
     ]},
     { icon: <TbLayoutGridAdd />, title: "Pertemuan 2", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
+      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents2" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
-      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
+      { icon: <CgGames />, title: "Session 2", address: "/scratchs2" },
+      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments2" },
     ]},
     { icon: <TbLayoutGridAdd />, title: "Pertemuan 3", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
+      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents3" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
-      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
+      { icon: <CgGames />, title: "Session 2", address: "/scratchs3" },
+      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments3" },
     ]},
     { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
   ];

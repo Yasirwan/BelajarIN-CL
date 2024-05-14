@@ -49,3 +49,24 @@
   margin: 10px 0;
   border-radius: 8px;
 }
+
+.content2 {
+  width: 100%;
+  height: calc(100vh - 75px);
+  overflow-y: auto;
+  background-color: var(--light);
+}
+.content2::-webkit-scrollbar {
+  display: none;
+}
+.content2Data {
+  margin: 25px 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: rgba(178, 181, 184, 0.2) 0px 8px 24px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}

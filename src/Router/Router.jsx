@@ -9,6 +9,8 @@ import Scratchs from "../Pages/Scratchs/Scratchs";
 import SingleScratch from "../Pages/SingleScratch/SingleScratch";
 import Lessons from "../Pages/Lessons/Lessons";
 import Content from "../Pages/Contents/Content";
+import Content2 from "../Pages/Contents/Content2";
+import Content3 from "../Pages/Contents/Content3";
 import Assignment from "../Pages/Assignments/Assignment";
 import Test from "../Pages/Tests/Test";
 import SingleContent from "../Pages/SingleContent/SingleContent";
@@ -40,6 +42,10 @@ const Router = () => {
         <Route path="/leaderboard" element={<LeaderBoard />} />
         <Route path="/content/:id" element={<SingleContent />} />
         <Route path="/contents" element={<Content />} />
+        {/* <Route path="/content2/:id" element={<SingleContent2 />} /> */}
+        <Route path="/contents2" element={<Content2 />} />
+        {/* <Route path="/content3/:id" element={<SingleContent3 />} /> */}
+        <Route path="/contents3" element={<Content3 />} />
         <Route path="/assignment/:id" element={<SingleAssignment />} />
         <Route path="/assignments" element={<Assignment />} />
         {/* <Route path="/test/:id" element={<SingleTest />} /> */}
