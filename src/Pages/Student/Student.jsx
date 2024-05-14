@@ -151,6 +151,7 @@ const Student = () => {
           {contextHolder}
           <form onSubmit={(e) => handleSubmit(e)}>
             <input
+              className="p-2 my-2"
               required
               name="name"
               type="text"
@@ -159,6 +160,7 @@ const Student = () => {
               onChange={(e) => handleInputChange(e)}
             />
             <input
+              className="p-2 my-2"
               required
               name="email"
               type="email"
@@ -167,6 +169,7 @@ const Student = () => {
               onChange={(e) => handleInputChange(e)}
             />
             <input
+              className="p-2 my-2"
               required
               name="password"
               type="password"
@@ -174,16 +177,12 @@ const Student = () => {
               placeholder="Enter Password"
               onChange={(e) => handleInputChange(e)}
             />
-            <select name="class" onChange={(e) => handleInputChange(e)}>
+            <select className="p-2 my-2" name="class" onChange={(e) => handleInputChange(e)}>
               <option value="">Choose Class</option>
-              <option value={5}>X PPLG 1</option>
-              <option value={6}>X PPLG 2</option>
-              <option value={7}>X PPLG 3</option>
-              <option value={8}>X PPLG 4</option>
-              <option value={9}>X PPLG 5</option>
-              <option value={10}>X PPLG 6</option>
+              <option value={5}>X ORACLE</option>
+              
             </select>
-            <input type="submit" value="Add Student" />
+            <input className="p-2 my-2" type="submit" value="Add Student" />
           </form>
           {loading ? (
             <Space

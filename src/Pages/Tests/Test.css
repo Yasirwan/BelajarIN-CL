@@ -4,6 +4,7 @@
   overflow-y: auto;
   background-color: var(--light);
 }
+
 .test::-webkit-scrollbar {
   display: none;
 }

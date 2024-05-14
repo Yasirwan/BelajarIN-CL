@@ -166,22 +166,18 @@ const Test = () => {
           }
         >
           <form>
-            <input
+            <input className="p-2 my-2"
               placeholder="Title"
               type="text"
               name="title"
               value={formData.title}
               onChange={(e) => handleFormChange(e)}
             />
-            <select name="class" onChange={(e) => handleFormChange(e)}>
+            <select className="p-2 my-2" name="class" onChange={(e) => handleFormChange(e)}>
               <option value="">Choose Class</option>
-              <option value="X PPLG 1">X PPLG 1</option>
-              <option value="X PPLG 2">X PPLG 2</option>
-              <option value="X PPLG 3">X PPLG 3</option>
-              <option value="X PPLG 4">X PPLG 4</option>
-              <option value="X PPLG 5">X PPLG 5</option>
+              <option value="X Oracle">X Oracle</option>
             </select>
-            <input
+            <input className="p-2 my-1"
               placeholder="Link Google Form"
               type="text"
               name="subject"
@@ -214,6 +210,7 @@ const Test = () => {
           ) : (
             ""
           )}
+          <br></br>
           <button
             className="uploadBtn"
             onClick={() => WidgetRef.current.open()}

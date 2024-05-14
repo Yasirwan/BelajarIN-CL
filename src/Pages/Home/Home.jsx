@@ -223,7 +223,7 @@ const Home = () => {
 
           </div>
           <div className="homeFooter">
-          © 2024 studee | All Rights Reserved | Created by salsa💖
+          © 2024 BelajarIN | All Rights Reserved | Created by yasirwan
           </div>
         </div>
       </Navbar>

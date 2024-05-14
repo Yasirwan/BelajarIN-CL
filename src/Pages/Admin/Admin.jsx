@@ -137,7 +137,8 @@ const Admin = () => {
           }
         >
           <form onSubmit={(e) => handleSubmit(e)}>
-            <input
+            <input 
+              className="p-2 my-2"
               required
               name="name"
               type="text"
@@ -146,6 +147,7 @@ const Admin = () => {
               onChange={(e) => handleInputChange(e)}
             />
             <input
+              className="p-2 my-2"
               required
               name="email"
               type="email"
@@ -154,6 +156,7 @@ const Admin = () => {
               onChange={(e) => handleInputChange(e)}
             />
             <input
+              className="p-2 my-2"
               required
               name="password"
               type="password"
@@ -161,7 +164,7 @@ const Admin = () => {
               placeholder="Enter Password"
               onChange={(e) => handleInputChange(e)}
             />
-            <input type="submit" value="Add Admin" />
+            <input className="p-2 my-2" type="submit" value="Add Admin" />
           </form>
 
           {/*main loading indicator  */}
