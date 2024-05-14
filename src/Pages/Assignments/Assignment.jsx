@@ -138,7 +138,7 @@ const Assignment = () => {
     <Navbar>
       <div className="assignment">
         {/* header component */}
-        <Header Title={"Assignment"} Address={"Assignment"} />
+        <Header Title={"Session 3"} Address={"Session 3"} />
 
         {/* assignment component */}
         {/* <div className="assignmentData">
