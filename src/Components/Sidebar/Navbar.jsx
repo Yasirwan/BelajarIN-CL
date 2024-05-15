@@ -61,13 +61,13 @@ const Navbar = ({ children }) => {
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
       { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubts" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt/6644eb2636db1f98901851bc" },
     ]},
     { icon: <AiFillAppstore />, title: "Pertemuan 2", childrens: [
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents2" },
       { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs2" },
       // { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments2" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubts2" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt2/6644eb4836db1f98901851c0" },
     ]},
     // { icon: <AiFillAppstore />, title: "Pertemuan 3", childrens: [
     //   { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
@@ -85,13 +85,13 @@ const Navbar = ({ children }) => {
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
       { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubts" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt/6644eb2636db1f98901851bc" },
     ]},
     { icon: <AiFillAppstore />, title: "Pertemuan 2", childrens: [
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents2" },
       { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs2" },
       // { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments2" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubts2" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt2/6644eb4836db1f98901851c0" },
     ]},
     // { icon: <AiFillAppstore />, title: "Pertemuan 3", childrens: [
     //   { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
