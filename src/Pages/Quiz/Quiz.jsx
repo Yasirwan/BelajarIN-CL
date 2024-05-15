@@ -15,6 +15,8 @@ import Header from "../../Components/Header/Header";
 //css imports
 import "./Quiz.css";
 import BackendURL from "../../BackendURL";
+import heroImage from '/img/hero2.png';
+
 
 const Quiz = () => {
   const dispatch = useDispatch();
@@ -181,7 +183,7 @@ const Quiz = () => {
       <div className="singleTest">
         <Header Title={"Test"} Address={"Tests"} />
 
-        <div className="singleTestData">
+        {/* <div className="singleTestData">
           <div className="fileContainer">
             {singleTest?.fileType === "jpg" || singleTest?.fileType === "jpeg" || singleTest?.fileType === "png" ? (
               <img src={singleTest.fileUrl} alt="" />
@@ -203,7 +205,44 @@ const Quiz = () => {
           <p>{singleTest?.title}</p>
           <p>Class : {singleTest?.class}</p>
           <p>{singleTest?.subject}</p>
+        </div> */}
+
+<div class="m-6 p-4 bg-white rounded-lg shadow-md">
+          <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
+            <div class="flex flex-col md:flex-row md:items-center"> 
+              <div class="overview-left mr-4 md:mr-8">
+                <img class="md:w-48" src={heroImage} alt="Hero Image"/>
+              </div>
+            </div>
+
+            <div class="overview-right ml-4 md:ml-8">
+              <div class="container mx-auto">
+                <h1 class="text-xl font-bold mb-2">Ayo, pelajari Algoritma, Naratif, Pseudocode, dan Flowchart dengan cara yang seru!</h1>
+                <div class="flex flex-col items-start">
+                  <p class="text-gray-600 mb-4">
+                    Pada sesi pertama ini, kami akan membantumu untuk belajar dengan mendownload bahan bacaan dan menonton video menarik.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+
+        <div className="singleContentDetails bg-customBlue rounded-lg p-4 my-2">
+          <h3 className="text-white font-bold text-center">Form Pretest</h3>
+        </div>
+
+        <div className="singleContentDetails ">
+      
+      <div className="flex justify-center">
+        <div className="w-full md:w-1/2 p-4">
+          <div class="flex justify-between">
+            <p>Silahkan klik tombol Start untuk memulai test</p>
+            <a target="_blank" href="https://drive.google.com/file/d/1iipLbZlFsyCYbSRhoJMid4f28ZEhc30c/view" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">Start</a>
+          </div>
+        </div>
+      </div>
+    </div>
         
         <div className="quiz-wrapper w-full min-h-[100vh]">
           <div className="md:relative quiz-content h-full col-span-2">
