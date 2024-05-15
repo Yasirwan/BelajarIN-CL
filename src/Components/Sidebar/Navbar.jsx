@@ -72,7 +72,7 @@ const Navbar = ({ children }) => {
     { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
   ];
   const studentData = [
-    { icon: <GoHomeFill />, title: "Dashboard", address: "/home" },
+    { icon: <GoHome />, title: "Dashboard", address: "/home" },
     { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
     { icon: <TbLayoutGridAdd />, title: "Pertemuan 1", childrens: [
