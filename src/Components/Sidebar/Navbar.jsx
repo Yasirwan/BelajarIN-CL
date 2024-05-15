@@ -15,13 +15,19 @@ import logo from "../../Assets/LogoInt.png";
 import { BiLogOut } from "react-icons/bi";
 import { TbLayoutGridAdd } from "react-icons/tb";
 import { LuLayoutGrid } from "react-icons/lu";
-import { PiStudent, PiChalkboardTeacher } from "react-icons/pi";
+import { PiGameControllerDuotone  } from "react-icons/pi";
 import { GoChevronDown, GoTrophy, GoHome } from "react-icons/go";
-import { RiAdminLine } from "react-icons/ri";
+import { RiHomeSmileFill  } from "react-icons/ri";
 import { AiOutlineSchedule, AiOutlineRead, AiOutlinePlayCircle } from "react-icons/ai";
 import { CgGames } from "react-icons/cg";
 import { IoBulbOutline } from "react-icons/io5";
-import { MdOutlineAssignment } from "react-icons/md";
+import { MdOutlineAssignment, MdVideoLibrary, MdGrade  } from "react-icons/md";
+import { FaUsers,FaUserCog   } from "react-icons/fa";
+import { GrTasks } from "react-icons/gr";
+import { AiFillAppstore } from "react-icons/ai";
+import { GiNotebook } from "react-icons/gi";
+import { IoLogOut } from "react-icons/io5";
+
 
 // CSS imports
 import "./Navbar.css";
@@ -45,41 +51,41 @@ const Navbar = ({ children }) => {
 
   //Sidebar menu
   const adminData = [
-    { icon: <GoHome />, title: "Dashboard", address: "/home" },
-    { icon: <RiAdminLine />, title: "Admin", address: "/admin" },
+    { icon: <RiHomeSmileFill  />, title: "Dashboard", address: "/home" },
+    { icon: <FaUserCog  />, title: "Admin", address: "/admin" },
     // { icon: <PiChalkboardTeacher />, title: "Tutors", address: "/tutor" },
-    { icon: <PiStudent />, title: "Students", address: "/student" },
-    { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
+    { icon: <FaUsers />, title: "Students", address: "/student" },
+    { icon: <GrTasks />, title: "Test", address: "/tests" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
-    { icon: <TbLayoutGridAdd />, title: "Pertemuan 1", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
+    { icon: <AiFillAppstore />, title: "Pertemuan 1", childrens: [
+      { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
-      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
+      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/assignments" },
     ]},
-    { icon: <TbLayoutGridAdd />, title: "Pertemuan 2", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents2" },
-      { icon: <CgGames />, title: "Session 2", address: "/scratchs2" },
+    { icon: <AiFillAppstore />, title: "Pertemuan 2", childrens: [
+      { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents2" },
+      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs2" },
       // { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments2" },
-      { icon: <IoBulbOutline />, title: "Session 3", address: "/doubt/664465f447d788afda3c4dac" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt/664465f447d788afda3c4dac" },
     ]},
-    { icon: <TbLayoutGridAdd />, title: "Pertemuan 3", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents3" },
+    { icon: <AiFillAppstore />, title: "Pertemuan 3", childrens: [
+      { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <CgGames />, title: "Session 2", address: "/scratchs3" },
-      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments3" },
+      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/assignments3" },
     ]},
-    { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
+    { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
   const studentData = [
-    { icon: <GoHome />, title: "Dashboard", address: "/home" },
-    { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
+    { icon: <RiHomeSmileFill  />, title: "Dashboard", address: "/home" },
+    { icon: <GrTasks />, title: "Test", address: "/tests" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
     { icon: <TbLayoutGridAdd />, title: "Pertemuan 1", childrens: [
       { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
       { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
-      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/assignments" },
     ]},
     { icon: <TbLayoutGridAdd />, title: "Pertemuan 2", childrens: [
       { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents2" },
@@ -93,7 +99,7 @@ const Navbar = ({ children }) => {
       { icon: <CgGames />, title: "Session 2", address: "/scratchs3" },
       { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments3" },
     ]},
-    { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
+    { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
 
   // Dropdown menu
@@ -156,7 +162,7 @@ const Navbar = ({ children }) => {
             ""
           )} */}
           <span onClick={() => handleLogout()}>
-            <Menu Icon={<BiLogOut />} Title={"Logout"} Address={""} />
+            <Menu Icon={<IoLogOut  />} Title={"Logout"} Address={""} />
           </span>
         </ul>
       </div>
