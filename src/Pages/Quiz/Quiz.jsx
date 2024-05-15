@@ -238,13 +238,13 @@ const Quiz = () => {
         <div className="w-full md:w-1/2 p-4">
           <div class="flex justify-between">
             <p>Silahkan klik tombol Start untuk memulai test</p>
-            <a target="_blank" href="https://drive.google.com/file/d/1iipLbZlFsyCYbSRhoJMid4f28ZEhc30c/view" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">Start</a>
+            <a target="_blank" href="https://forms.gle/QQ7WicSqwuvg18LF6" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">Start</a>
           </div>
         </div>
       </div>
     </div>
         
-        <div className="quiz-wrapper w-full min-h-[100vh]">
+        {/* <div className="quiz-wrapper w-full min-h-[100vh]">
           <div className="md:relative quiz-content h-full col-span-2">
             {isLoading ? (
               <Spiner />
@@ -363,7 +363,7 @@ const Quiz = () => {
               </div>
             )}
           </div>
-        </div>
+        </div> */}
       </div>
     </Navbar>
   );

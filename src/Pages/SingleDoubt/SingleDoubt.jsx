@@ -142,21 +142,13 @@ Langkah 10: Hidangkan mi goreng dengan taburan daun bawang atau bahan lain sesua
             className="responseForm flex flex-col"
             onSubmit={(e) => handleSubmit(e, "PengetahuanAkhir")}
           >
-            <p> Nama Lengkap </p>
+            <p className="text-center"> Link Google Drive </p>
             <input
               name="desc"
               className="mb-2 max-w-md mx-auto border-customBlue"
               value={descPengetahuanAkhir}
               onChange={(e) => setDescPengetahuanAkhir(e.target.value)}
-              placeholder="Input your name"
-            />
-            <p> Link Google Drive </p>
-            <input
-              name="desc"
-              className="mb-2 max-w-md mx-auto border-customBlue"
-              value={descFasePenstrukturan}
-              onChange={(e) => setDescFasePenstrukturan(e.target.value)}
-              placeholder="e.g. https://drive.google.com/drive/u/1/folders/1ebFPtxtNU0IvqNzfZvf7SdBKD5l7P1eM"
+              placeholder="Contoh : M Yasirwan, https://drive.google.com"
             />
               <input type="submit" className="bg-customBlue hover:bg-customBlue text-white py-2 px-4 rounded-2xl border-none max-w-md mx-auto" />
           </form>
@@ -169,7 +161,7 @@ Langkah 10: Hidangkan mi goreng dengan taburan daun bawang atau bahan lain sesua
         key={i}
         className="doubtResponses bg-red-100 rounded-lg p-4 my-2"
       >
-        <p>Urutan no. : {i + 1}</p>
+        <p>No. {i + 1}</p>
         <p>{data}</p>
       </div>
     );

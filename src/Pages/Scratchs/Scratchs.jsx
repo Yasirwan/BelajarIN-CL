@@ -212,11 +212,11 @@ const Scratchs = () => {
 
         <div class="mx-auto w-full max-w-screen-xl">
           <div class="relative" style={{ paddingTop: "75%" }}>
-            <iframe src="https://quizizz.com/join?gc=85962061" allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
+            <iframe src="https://quizizz.com/join?gc=75446451" allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
           </div>
         </div>
 
-        <div className="scratchResponses bg-customBlue rounded-lg p-4 my-2">
+        {/* <div className="scratchResponses bg-customBlue rounded-lg p-4 my-2">
           <h3 className="text-white font-bold text-center">Form Pengumpulan</h3>
         </div>
 
@@ -239,7 +239,7 @@ const Scratchs = () => {
               />
               <input type="submit" className="bg-customBlue hover:bg-customBlue text-white py-2 px-4 rounded-2xl border-none max-w-md mx-auto" />
           </form>
-      </div>
+      </div> */}
 
 
         {user?.userType !== "Student" ? (
