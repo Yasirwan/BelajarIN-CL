@@ -236,8 +236,8 @@ const Quiz = () => {
       
       <div className="flex justify-center">
         <div className="w-full md:w-1/2 p-4">
-          <div class="flex justify-between">
-            <p>Silahkan klik tombol Start untuk memulai test</p>
+          <div class="grid justify-items-center">
+            <p className="p-4">Silahkan klik tombol Start untuk memulai test</p>
             <a target="_blank" href="https://forms.gle/QQ7WicSqwuvg18LF6" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">Start</a>
           </div>
         </div>

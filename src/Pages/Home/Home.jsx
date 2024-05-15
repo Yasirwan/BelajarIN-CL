@@ -59,36 +59,36 @@ const Home = () => {
 
   //overview data
   const overviewData = [
-    {
-      icon: <RiAdminLine />,
-      title: "Admins",
-      number: dashboard?.admins?.length || 0,
-    },
-    {
-      icon: <PiStudentDuotone />,
-      title: "Students",
-      number: dashboard?.students?.length || 0,
-    },
-    {
-      icon: <BiUserVoice />,
-      title: "Guests",
-      number: dashboard?.tutors?.length || 0,
-    },
-    {
-      icon: <TbLayoutGridAdd />,
-      title: "Contents",
-      number: dashboard?.contents?.length || 0,
-    },
-    {
-      icon: <TbBrandSpeedtest />,
-      title: "Scratchs",
-      number: dashboard?.scratchs?.length || 0,
-    },
-    {
-      icon: <AiOutlineQuestion />,
-      title: "Doubts",
-      number: dashboard?.doubts?.length || 0,
-    },
+    // // {
+    // //   icon: <RiAdminLine />,
+    // //   title: "Admins",
+    // //   number: dashboard?.admins?.length || 0,
+    // // },
+    // {
+    //   icon: <PiStudentDuotone />,
+    //   title: "Students",
+    //   number: dashboard?.students?.length || 0,
+    // },
+    // // {
+    // //   icon: <BiUserVoice />,
+    // //   title: "Guests",
+    // //   number: dashboard?.tutors?.length || 0,
+    // // },
+    // {
+    //   icon: <TbLayoutGridAdd />,
+    //   title: "Contents",
+    //   number: dashboard?.contents?.length || 0,
+    // },
+    // {
+    //   icon: <TbBrandSpeedtest />,
+    //   title: "Scratchs",
+    //   number: dashboard?.scratchs?.length || 0,
+    // },
+    // {
+    //   icon: <AiOutlineQuestion />,
+    //   title: "Doubts",
+    //   number: dashboard?.doubts?.length || 0,
+    // },
   ];
 
   useEffect(() => {

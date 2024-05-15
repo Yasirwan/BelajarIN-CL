@@ -157,7 +157,7 @@ const Content2 = () => {
 
             <div class="overview-right ml-4 md:ml-8">
               <div class="container mx-auto">
-                <h1 class="text-xl font-bold mb-2">Ayo, pelajari Algoritma, Naratif, Pseudocode, dan Flowchart dengan cara yang seru!</h1>
+                <h1 class="text-xl font-bold mb-2">Ayo, pelajari Pemrograman, Variabel, Tipe Data, dan Operator dengan cara yang seru!</h1>
                 <div class="flex flex-col items-start">
                   <p class="text-gray-600 mb-4">
                     Pada sesi pertama ini, kami akan membantumu untuk belajar dengan mendownload bahan bacaan dan menonton video menarik.
