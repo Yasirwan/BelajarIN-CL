@@ -17,6 +17,7 @@ import SingleContent from "../Pages/SingleContent/SingleContent";
 import SingleAssignment from "../Pages/SingleAssignment/SingleAssignment";
 // import SingleTest from "../Pages/SingleTest/SingleTest";
 import Doubts from "../Pages/Doubts/Doubts";
+import Doubts2 from "../Pages/Doubts/Doubts2";
 import SingleDoubt from "../Pages/SingleDoubt/SingleDoubt";
 import SingleDoubt2 from "../Pages/SingleDoubt/SingleDoubt2";
 import LeaderBoard from "../Pages/LeaderBoard/LeaderBoard";
@@ -52,6 +53,7 @@ const Router = () => {
         {/* <Route path="/test/:id" element={<SingleTest />} /> */}
         <Route path="/tests" element={<Test />} />
         <Route path="/doubts" element={<Doubts />} />
+        <Route path="/doubts2" element={<Doubts2 />} />
         <Route path="/doubt/:id" element={<SingleDoubt />} />
         <Route path="/doubt2/:id" element={<SingleDoubt2 />} />
         <Route path="*" element={<Home />} />
