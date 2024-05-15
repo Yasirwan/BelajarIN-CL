@@ -59,7 +59,7 @@ const SingleDoubt2 = () => {
   return (
     <Navbar>
       <div className="singleContent">
-        <Header Title={"Doubt Details"} Address={"Doubt2"} />
+        <Header Title={"LKPD"} Address={"Doubt2"} />
         {/* <div className="singleContentData">
         <div className="fileContainer">
   {singleDoubt?.fileType === "jpg" || singleDoubt?.fileType === "jpeg" ? (
@@ -117,7 +117,7 @@ const SingleDoubt2 = () => {
         
         <div className="grid justify-items-center">
           <p className="p-4">Silahkan mengakses LKPD </p>
-          <a target="_blank" href="https://docs.google.com/document/d/1YGGSjDaMvXqZoqX-oB38I-yp9IS2JMhf/edit?usp=sharing&ouid=112525555696106018803&rtpof=true&sd=true" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">View</a>
+          <a target="_blank" href="https://docs.google.com/document/d/1jY2kj_ex-tgT1GmVWfqNV_NAkLC6yGvk/edit?usp=sharing&ouid=112525555696106018803&rtpof=true&sd=true" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">View</a>
         </div>
 
         <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
