@@ -73,7 +73,7 @@ const Navbar = ({ children }) => {
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
       { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/6644a8d15ce2db1528024299" },
     ]},
     { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
@@ -97,7 +97,7 @@ const Navbar = ({ children }) => {
       { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents3" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
       { icon: <CgGames />, title: "Session 2", address: "/scratchs3" },
-      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments3" },
+      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/6644af35ccfb29648725f2b5" },
     ]},
     { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
