@@ -73,7 +73,7 @@ const Navbar = ({ children }) => {
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
       { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/6644a8d15ce2db1528024299" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/6644af35ccfb29648725f2b5" },
     ]},
     { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
@@ -81,23 +81,23 @@ const Navbar = ({ children }) => {
     { icon: <RiHomeSmileFill  />, title: "Dashboard", address: "/home" },
     { icon: <GrTasks />, title: "Test", address: "/tests" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
-    { icon: <TbLayoutGridAdd />, title: "Pertemuan 1", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
+    { icon: <AiFillAppstore />, title: "Pertemuan 1", childrens: [
+      { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/assignments" },
+      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt/6644a9d65ce2db15280242ee" },
     ]},
-    { icon: <TbLayoutGridAdd />, title: "Pertemuan 2", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents2" },
-      { icon: <CgGames />, title: "Session 2", address: "/scratchs2" },
+    { icon: <AiFillAppstore />, title: "Pertemuan 2", childrens: [
+      { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents2" },
+      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs2" },
       // { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments2" },
-      { icon: <IoBulbOutline />, title: "Session 3", address: "/doubt/664465f447d788afda3c4dac" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt2/6644a8d15ce2db1528024299" },
     ]},
-    { icon: <TbLayoutGridAdd />, title: "Pertemuan 3", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents3" },
+    { icon: <AiFillAppstore />, title: "Pertemuan 3", childrens: [
+      { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <CgGames />, title: "Session 2", address: "/scratchs3" },
-      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/6644af35ccfb29648725f2b5" },
+      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/6644af35ccfb29648725f2b5" },
     ]},
     { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
