@@ -212,7 +212,7 @@ const Scratchs2 = () => {
 
         <div class="mx-auto w-full max-w-screen-xl">
           <div class="relative" style={{ paddingTop: "75%" }}>
-            <iframe src="https://quizizz.com/join?gc=75446451" allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
+            <iframe src="https://quizizz.com/join?gc=77748491" allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
           </div>
         </div>
 
