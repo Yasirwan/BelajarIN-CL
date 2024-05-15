@@ -59,9 +59,9 @@ const Navbar = ({ children }) => {
     ]},
     { icon: <TbLayoutGridAdd />, title: "Pertemuan 2", childrens: [
       { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents2" },
-      // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
       { icon: <CgGames />, title: "Session 2", address: "/scratchs2" },
-      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments2" },
+      // { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments2" },
+      { icon: <IoBulbOutline />, title: "Session 3", address: "/doubt/664465f447d788afda3c4dac" },
     ]},
     { icon: <TbLayoutGridAdd />, title: "Pertemuan 3", childrens: [
       { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents3" },
@@ -72,7 +72,7 @@ const Navbar = ({ children }) => {
     { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
   ];
   const studentData = [
-    { icon: <GoHome />, title: "Dashboard", address: "/home" },
+    { icon: <GoHomeFill />, title: "Dashboard", address: "/home" },
     { icon: <AiOutlineSchedule />, title: "Test", address: "/tests" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
     { icon: <TbLayoutGridAdd />, title: "Pertemuan 1", childrens: [
@@ -82,18 +82,17 @@ const Navbar = ({ children }) => {
       { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
     ]},
     { icon: <TbLayoutGridAdd />, title: "Pertemuan 2", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
-      // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
-      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
+      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents2" },
+      { icon: <CgGames />, title: "Session 2", address: "/scratchs2" },
+      // { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments2" },
+      { icon: <IoBulbOutline />, title: "Session 3", address: "/doubt/664465f447d788afda3c4dac" },
     ]},
     { icon: <TbLayoutGridAdd />, title: "Pertemuan 3", childrens: [
-      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents" },
+      { icon: <AiOutlinePlayCircle />, title: "Session 1", address: "/contents3" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <CgGames />, title: "Session 2", address: "/scratchs" },
-      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments" },
+      { icon: <CgGames />, title: "Session 2", address: "/scratchs3" },
+      { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments3" },
     ]},
-    
     { icon: <GoTrophy />, title: "Grades", address: "/leaderboard" },
   ];
 

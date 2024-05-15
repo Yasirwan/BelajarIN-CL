@@ -10,6 +10,7 @@ import Header from "../../Components/Header/Header";
 //css imports
 import { Space, Spin } from "antd";
 import "./SingleDoubt.css";
+import heroImage from '/img/hero2.png';
 
 const SingleDoubt = () => {
   const dispatch = useDispatch();
@@ -21,6 +22,7 @@ const SingleDoubt = () => {
     data: { isAuthenticated },
   } = useSelector((store) => store.auth);
   const { singleDoubt, load } = useSelector((store) => store.doubt);
+  const { user } = useSelector((store) => store.auth.data);
 
   // form states
   const [descPengetahuanAwal, setDescPengetahuanAwal] = useState("");
@@ -58,7 +60,7 @@ const SingleDoubt = () => {
     <Navbar>
       <div className="singleContent">
         <Header Title={"Doubt Details"} Address={"Doubt"} />
-        <div className="singleContentData">
+        {/* <div className="singleContentData">
         <div className="fileContainer">
   {singleDoubt?.fileType === "jpg" || singleDoubt?.fileType === "jpeg" ? (
     <img src={singleDoubt?.fileUrl} alt="" />
@@ -75,65 +77,98 @@ const SingleDoubt = () => {
   )}
 </div>
 
-        </div>
+        </div> */}
 
-        <div className="doubtResponses">
-          <p>{singleDoubt?.title}</p>
+        {/* <div className="doubtResponses"> */}
+          {/* <p>{singleDoubt?.title}</p> */}
           {/* <p>Class : {singleDoubt?.class}</p> */}
-          <p>{singleDoubt?.subject}</p>
-          <p>{singleDoubt?.description}</p>
+          {/* <p>{singleDoubt?.subject}</p> */}
+          {/* <p>{singleDoubt?.description}</p> */}
           {/* <p>Resolved : {singleDoubt?.resolved == "Yes" ? "Yes" : "No"}</p> */}
-        </div>
+        {/* </div> */}
 
-        <div className="doubtResponses bg-customBlue rounded-lg p-4 my-2">
-          <h3 className="text-white">Pengetahuan Awal</h3>
-        </div>
-
-        <div className="doubtResponses bg-white rounded-lg p-4 my-2">
-          <h3 className="text-black">Silahkan jawab pertanyaan yang terdapat pada LKPD | Week 2 secara individu untuk mengukur pengetahuan awal mengenai Percabangan dan Perulangan!</h3>
-        </div>
-
-        <div className="doubtResponses bg-customBlue rounded-lg p-4 my-2">
-          <h3 className="text-white">Fase Penstrukturan Ide</h3>
-        </div>
-
-        <div className="doubtResponses bg-white rounded-lg p-4 my-2">
-          <h3 className="text-black">Lakukanlah diskusi secara berkelompok untuk mencari informasi tambahan, bertanya pertanyaan, atau mencoba berbagai pendekatan guna menambah pengetahuan baru mengenai Percabangan dan Perulangan. Lalu jawablah pertanyaan dengan tepat</h3>
-        </div>
-
-        <div className="doubtResponses bg-customBlue rounded-lg p-4 my-2">
-          <h3 className="text-white">Pengetahuan Akhir</h3>
-        </div>
-
-        <div className="doubtResponses bg-white rounded-lg p-4 my-2">
-          <h3 className="text-black">Setelah itu silahkan jawab pertanyaan secara individu untuk mengukur pengetahuan baru mengenai Percabangan dan Perulangan!</h3>
-        </div>
-        {singleDoubt?.response?.map((data, i) => {
-          return (
-            <div
-              key={i}
-              className="doubtResponses bg-red-100 rounded-lg p-4 my-2"
-            >
-              <p>Urutan no. : {i + 1}</p>
-              <p>{data}</p>
+        <div class="m-6 p-4 bg-white rounded-lg shadow-md">
+          <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
+            <div class="flex flex-col md:flex-row md:items-center"> 
+              <div class="overview-left mr-4 md:mr-8">
+                <img class="md:w-48" src={heroImage} alt="Hero Image"/>
+              </div>
             </div>
-          );
-        })}
+
+            <div class="overview-right ml-4 md:ml-8">
+              <div class="container mx-auto">
+                <h1 class="text-xl font-bold mb-2">Selamat kamu hampir mencapai akhir pembelajaran!</h1>
+                <div class="flex flex-col items-start">
+                  <p class="text-gray-600 mb-4">
+                   Pada akhir sesi ini, silahkan bekerja sama dalam kelompok untuk menyelesaikan tugas yang diberikan. <br/>
+                   Catat jawaban sesuai dengan format yang disediakan di bawah ini.<br/>
+                   Setelah selesai, jangan lupa untuk mengirimkan jawaban melalui formulir yang telah kami sediakan.<br/>
+                   Selamat mengerjakan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
+          <h3 className="text-white font-bold text-center">Lembar Kerja Peserta Didik (LKPD)</h3>
+        </div>
+        
+        <div className="singleAssignmentDetails">
+          <p>Jawablah titik titik dibawah ini mengenai bagaimana kalimat Naratif pada studi kasus membuat indomie goreng diubah menjadi Pseudocode, dan Flowchart!
+1.	Naratif
+Membuat Indomie Goreng
+Langkah 1: Siapkan bahan mi instan, minyak goreng, telur, sayuran, bumbu mie instan, dan air.
+Langkah 2: Buka bungkus mi instan dan masukkan mi ke dalam air mendidih.
+Langkah 3: Pecahkan telur ke dalam wajan yang sudah dipanaskan
+Langkah 4: Tambahkan sayuran yang sudah dipotong ke dalam wajan bersama telur.
+Langkah 5: Aduk telur dan sayuran.
+Langkah 6: Setelah mi empuk, tiriskan airnya dan masukkan mi ke dalam wajan bersama telur dan sayuran.
+Langkah 7: Tambahkan bumbu mie instan ke dalam mi di wajan.
+Langkah 8: Aduk semua bahan hingga tercampur rata dan bumbu merata di seluruh mi.
+Langkah 9: Setelah matang, angkat mi goreng dari wajan dan pindahkan ke dalam piring saji.
+Langkah 10: Hidangkan mi goreng dengan taburan daun bawang atau bahan lain sesuai selera.
+2.	Pseudocode
+</p>
+        </div>
+
+        <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
+          <h3 className="text-white font-bold text-center">Form Pengumpulan</h3>
+        </div>
+
         <div className="doubtResponses bg-white rounded-lg p-4 my-2">
-          <p>Form Pengumpulan</p>
           <form
-            className="responseForm"
+            className="responseForm flex flex-col"
             onSubmit={(e) => handleSubmit(e, "PengetahuanAkhir")}
           >
             <input
               name="desc"
+              className="mb-2 max-w-md mx-auto border-customBlue"
               value={descPengetahuanAkhir}
               onChange={(e) => setDescPengetahuanAkhir(e.target.value)}
               placeholder="Contoh : Tsalsabilla, https://drive.google.com/drive/u/1/folders/1ebFPtxtNU0IvqNzfZvf7SdBKD5l7P1eM"
             />
-            <input type="submit" />
+              <input type="submit" className="bg-customBlue hover:bg-customBlue text-white py-2 px-4 rounded-2xl border-none max-w-md mx-auto" />
           </form>
         </div>
+
+{singleDoubt?.response?.map((data, i) => {
+  if (user?.userType === "Admin") {
+    return (
+      <div
+        key={i}
+        className="doubtResponses bg-red-100 rounded-lg p-4 my-2"
+      >
+        <p>Urutan no. : {i + 1}</p>
+        <p>{data}</p>
+      </div>
+    );
+  } else {
+    return null;
+  }
+})}
+
 
         {load ? (
           <Space
