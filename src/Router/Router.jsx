@@ -6,6 +6,8 @@ import Admin from "../Pages/Admin/Admin";
 import Tutor from "../Pages/Tutor/Tutor";
 import Student from "../Pages/Student/Student";
 import Scratchs from "../Pages/Scratchs/Scratchs";
+import Scratchs2 from "../Pages/Scratchs/Scratchs2";
+import Scratchs3 from "../Pages/Scratchs/Scratchs3";
 import SingleScratch from "../Pages/SingleScratch/SingleScratch";
 import Lessons from "../Pages/Lessons/Lessons";
 import Content from "../Pages/Contents/Content";
@@ -41,6 +43,8 @@ const Router = () => {
         <Route path="/tutor" element={<Tutor />} />
         <Route path="/student" element={<Student />} />
         <Route path="/scratchs" element={<Scratchs />} />
+        <Route path="/scratchs2" element={<Scratchs2 />} />
+        <Route path="/scratchs3" element={<Scratchs3 />} />
         <Route path="/scratch/:id" element={<SingleScratch />} />
         <Route path="/lessons" element={<Lessons />} />
         <Route path="/leaderboard" element={<LeaderBoard />} />
