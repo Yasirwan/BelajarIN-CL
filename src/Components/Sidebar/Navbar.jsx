@@ -69,12 +69,12 @@ const Navbar = ({ children }) => {
       // { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments2" },
       { icon: <GiNotebook />, title: "Session 3", address: "/doubt2/6644eb4836db1f98901851c0" },
     ]},
-    // { icon: <AiFillAppstore />, title: "Pertemuan 3", childrens: [
-    //   { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
-    //   // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-    //   { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
-    //   { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/6644af35ccfb29648725f2b5" },
-    // ]},
+    { icon: <AiFillAppstore />, title: "Pertemuan 3", childrens: [
+      { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
+      // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
+      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/6644af35ccfb29648725f2b5" },
+    ]},
     { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
   const studentData = [
@@ -93,12 +93,12 @@ const Navbar = ({ children }) => {
       // { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments2" },
       { icon: <GiNotebook />, title: "Session 3", address: "/doubt2/6644eb4836db1f98901851c0" },
     ]},
-    // { icon: <AiFillAppstore />, title: "Pertemuan 3", childrens: [
-    //   { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
-    //   // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-    //   { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
-    //   { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/6644af35ccfb29648725f2b5" },
-    // ]},
+    { icon: <AiFillAppstore />, title: "Pertemuan 3", childrens: [
+      { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
+      // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
+      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/6644af35ccfb29648725f2b5" },
+    ]},
     { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
 
