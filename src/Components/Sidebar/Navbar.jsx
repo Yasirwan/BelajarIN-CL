@@ -73,7 +73,7 @@ const Navbar = ({ children }) => {
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
       { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/6644af35ccfb29648725f2b5" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/664a22a5fa6d7b03f92046bb" },
     ]},
     { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
@@ -97,7 +97,7 @@ const Navbar = ({ children }) => {
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
       { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/6644af35ccfb29648725f2b5" },
+      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/664a22a5fa6d7b03f92046bb" },
     ]},
     { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];

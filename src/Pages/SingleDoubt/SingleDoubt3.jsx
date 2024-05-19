@@ -118,7 +118,7 @@ const SingleDoubt3 = () => {
 
         <div className="grid justify-items-center">
           <p className="p-4">Silahkan mengakses LKPD </p>
-          <a target="_blank" href="https://docs.google.com/document/d/1jY2kj_ex-tgT1GmVWfqNV_NAkLC6yGvk/edit?usp=sharing&ouid=112525555696106018803&rtpof=true&sd=true" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">View</a>
+          <a target="_blank" href="https://docs.google.com/document/d/1Bwnms70dF0CpuFR6P2PQHTE2TnuXCgUj/edit?usp=sharing&ouid=112525555696106018803&rtpof=true&sd=true" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">View</a>
         </div>
 
         <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
