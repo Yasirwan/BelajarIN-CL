@@ -114,27 +114,14 @@ const SingleDoubt3 = () => {
         <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
           <h3 className="text-white font-bold text-center">Lembar Kerja Peserta Didik (LKPD)</h3>
         </div>
-        
-        <div className="singleAssignmentDetails">
-          <p>Jawablah titik titik dibawah ini mengenai bagaimana kalimat Naratif pada studi kasus membuat indomie goreng diubah menjadi Pseudocode, dan Flowchart!
-1.	Naratif
-Membuat Indomie Goreng
-Langkah 1: Siapkan bahan mi instan, minyak goreng, telur, sayuran, bumbu mie instan, dan air.
-Langkah 2: Buka bungkus mi instan dan masukkan mi ke dalam air mendidih.
-Langkah 3: Pecahkan telur ke dalam wajan yang sudah dipanaskan
-Langkah 4: Tambahkan sayuran yang sudah dipotong ke dalam wajan bersama telur.
-Langkah 5: Aduk telur dan sayuran.
-Langkah 6: Setelah mi empuk, tiriskan airnya dan masukkan mi ke dalam wajan bersama telur dan sayuran.
-Langkah 7: Tambahkan bumbu mie instan ke dalam mi di wajan.
-Langkah 8: Aduk semua bahan hingga tercampur rata dan bumbu merata di seluruh mi.
-Langkah 9: Setelah matang, angkat mi goreng dari wajan dan pindahkan ke dalam piring saji.
-Langkah 10: Hidangkan mi goreng dengan taburan daun bawang atau bahan lain sesuai selera.
-2.	Pseudocode
-</p>
-        </div>
 
         <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
           <h3 className="text-white font-bold text-center">Form Pengumpulan</h3>
+        </div>
+
+        <div className="grid justify-items-center">
+          <p className="p-4">Silahkan mengakses LKPD </p>
+          <a target="_blank" href="https://docs.google.com/document/d/1jY2kj_ex-tgT1GmVWfqNV_NAkLC6yGvk/edit?usp=sharing&ouid=112525555696106018803&rtpof=true&sd=true" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">View</a>
         </div>
 
         <div className="doubt3Responses bg-white rounded-lg p-4 my-2">
@@ -148,7 +135,7 @@ Langkah 10: Hidangkan mi goreng dengan taburan daun bawang atau bahan lain sesua
               className="mb-2 max-w-md mx-auto border-customBlue"
               value={descPengetahuanAkhir}
               onChange={(e) => setDescPengetahuanAkhir(e.target.value)}
-              placeholder="Contoh : M Yasirwan, https://drive.google.com"
+              placeholder="Contoh : Kelompok 1, https://drive.google.com"
             />
               <input type="submit" className="bg-customBlue hover:bg-customBlue text-white py-2 px-4 rounded-2xl border-none max-w-md mx-auto" />
           </form>

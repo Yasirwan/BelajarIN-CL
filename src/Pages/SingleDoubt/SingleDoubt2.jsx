@@ -135,7 +135,7 @@ const SingleDoubt2 = () => {
               className="mb-2 max-w-md mx-auto border-customBlue"
               value={descPengetahuanAkhir}
               onChange={(e) => setDescPengetahuanAkhir(e.target.value)}
-              placeholder="Contoh : M Yasirwan, https://drive.google.com"
+              placeholder="Contoh : Kelompok 1, https://drive.google.com"
             />
               <input type="submit" className="bg-customBlue hover:bg-customBlue text-white py-2 px-4 rounded-2xl border-none max-w-md mx-auto" />
           </form>
