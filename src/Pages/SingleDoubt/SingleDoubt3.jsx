@@ -112,12 +112,13 @@ const SingleDoubt3 = () => {
         </div>
 
         <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
+          <h3 className="text-white font-bold text-center">Form Pengumpulan</h3>
+        </div>
+        
+        <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
           <h3 className="text-white font-bold text-center">Lembar Kerja Peserta Didik (LKPD)</h3>
         </div>
 
-        <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
-          <h3 className="text-white font-bold text-center">Form Pengumpulan</h3>
-        </div>
 
         <div className="grid justify-items-center">
           <p className="p-4">Silahkan mengakses LKPD </p>
