@@ -142,6 +142,22 @@ const SingleDoubt3 = () => {
           </form>
         </div>
 
+        <div className="singleContentDetails bg-customBlue rounded-lg p-4 my-2">
+          <h3 className="text-white font-bold text-center">Form Tanggapan Multimedia Interaktif</h3>
+        </div>
+
+        <div className="singleContentDetails ">
+      
+      <div className="flex justify-center">
+        <div className="w-full md:w-1/2 p-4">
+          <div class="grid justify-items-center">
+            <p className="p-4">Silahkan klik tombol Start untuk memulai</p>
+            <a target="_blank" href="https://forms.gle/CfeEGaNkjekQhbwk6" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">Start</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
 {singleDoubt3?.response?.map((data, i) => {
   if (user?.userType === "Admin") {
     return (

@@ -217,10 +217,11 @@ const Quiz = () => {
 
             <div class="overview-right ml-4 md:ml-8">
               <div class="container mx-auto">
-                <h1 class="text-xl font-bold mb-2">Ayo, pelajari Algoritma, Naratif, Pseudocode, dan Flowchart dengan cara yang seru!</h1>
+                <h1 class="text-xl font-bold mb-2">Soal Postest Algoritma Dan Pemrograman SMKN 4 Padalarang</h1>
                 <div class="flex flex-col items-start">
                   <p class="text-gray-600 mb-4">
-                    Pada sesi pertama ini, kami akan membantumu untuk belajar dengan mendownload bahan bacaan dan menonton video menarik.
+                  Mohon isi formulir ini dengan baik dan benar.  Setiap jawaban akan dimasukkan ke dalam nilai karena  Postest ini bertujuan untuk mengukur pengetahuan siswa setelah dilakukan pembelajaran Algoritma dan Pemrograman menggunakan website BelajarIN X Oracle SMKN 4 Padalarang.
+Terima kasih dan Selamat mengerjakan
                   </p>
                 </div>
               </div>
@@ -229,7 +230,7 @@ const Quiz = () => {
         </div>
 
         <div className="singleContentDetails bg-customBlue rounded-lg p-4 my-2">
-          <h3 className="text-white font-bold text-center">Form Pretest</h3>
+          <h3 className="text-white font-bold text-center">Form Postest</h3>
         </div>
 
         <div className="singleContentDetails ">
@@ -238,7 +239,7 @@ const Quiz = () => {
         <div className="w-full md:w-1/2 p-4">
           <div class="grid justify-items-center">
             <p className="p-4">Silahkan klik tombol Start untuk memulai test</p>
-            <a target="_blank" href="https://forms.gle/QQ7WicSqwuvg18LF6" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">Start</a>
+            <a target="_blank" href="https://forms.gle/gUDupXHjAJYTu24L7" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">Start</a>
           </div>
         </div>
       </div>
