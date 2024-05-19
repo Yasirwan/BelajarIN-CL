@@ -211,7 +211,7 @@ const Content3 = () => {
           
           <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Percabangan If-Else-If</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/lxIFFLFdBk"
+            <iframe src="https://www.youtube.com/embed/_lxIFFLFdBk"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
