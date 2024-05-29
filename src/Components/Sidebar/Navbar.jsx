@@ -73,7 +73,7 @@ const Navbar = ({ children }) => {
       { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/664a22a5fa6d7b03f92046bb" },
     ]},
   
-    { icon: <GrTasks />, title: "Posttest", address: "/test/6643090f1845bac6caaa45ef" },
+    { icon: <GrTasks />, title: "Posttest", address: "/test/66430940d161a10cf56217b5" },
 
     // { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
@@ -100,7 +100,7 @@ const Navbar = ({ children }) => {
       { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
       { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/664a22a5fa6d7b03f92046bb" },
     ]},
-    { icon: <GrTasks />, title: "Posttest", address: "/test/6643090f1845bac6caaa45ef" },
+    { icon: <GrTasks />, title: "Posttest", address: "/test/66430940d161a10cf56217b5" },
 
     // { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
