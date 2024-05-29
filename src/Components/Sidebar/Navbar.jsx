@@ -12,21 +12,17 @@ import user from "../../Assets/user.png";
 import logo from "../../Assets/LogoInt.png";
 
 // Icon imports
-import { BiLogOut } from "react-icons/bi";
-import { TbLayoutGridAdd } from "react-icons/tb";
 import { LuLayoutGrid } from "react-icons/lu";
 import { PiGameControllerDuotone  } from "react-icons/pi";
-import { GoChevronDown, GoTrophy, GoHome } from "react-icons/go";
+import { GoChevronDown } from "react-icons/go";
 import { RiHomeSmileFill  } from "react-icons/ri";
-import { AiOutlineSchedule, AiOutlineRead, AiOutlinePlayCircle } from "react-icons/ai";
-import { CgGames } from "react-icons/cg";
-import { IoBulbOutline } from "react-icons/io5";
-import { MdOutlineAssignment, MdVideoLibrary, MdGrade  } from "react-icons/md";
+import { MdVideoLibrary } from "react-icons/md";
 import { FaUsers,FaUserCog   } from "react-icons/fa";
 import { GrTasks } from "react-icons/gr";
 import { AiFillAppstore } from "react-icons/ai";
 import { GiNotebook } from "react-icons/gi";
 import { IoLogOut } from "react-icons/io5";
+import { CgMenuGridO } from "react-icons/cg";
 
 
 // CSS imports
@@ -55,7 +51,8 @@ const Navbar = ({ children }) => {
     { icon: <FaUserCog  />, title: "Admin", address: "/admin" },
     // { icon: <PiChalkboardTeacher />, title: "Tutors", address: "/tutor" },
     { icon: <FaUsers />, title: "Students", address: "/student" },
-    { icon: <GrTasks />, title: "Test", address: "/tests" },
+    // { icon: <GrTasks />, title: "Test", address: "/tests" },
+    { icon: <GrTasks />, title: "Pretest", address: "/test/6643090f1845bac6caaa45ef" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
     { icon: <AiFillAppstore />, title: "Pertemuan 1", childrens: [
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents" },
@@ -75,11 +72,15 @@ const Navbar = ({ children }) => {
       { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
       { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/664a22a5fa6d7b03f92046bb" },
     ]},
-    { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
+  
+    { icon: <GrTasks />, title: "Posttest", address: "/test/6643090f1845bac6caaa45ef" },
+
+    // { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
   const studentData = [
     { icon: <RiHomeSmileFill  />, title: "Dashboard", address: "/home" },
-    { icon: <GrTasks />, title: "Test", address: "/tests" },
+    // { icon: <GrTasks />, title: "Test", address: "/tests" },
+    { icon: <GrTasks />, title: "Pretest", address: "/test/6643090f1845bac6caaa45ef" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
     { icon: <AiFillAppstore />, title: "Pertemuan 1", childrens: [
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents" },
@@ -99,7 +100,9 @@ const Navbar = ({ children }) => {
       { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
       { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/664a22a5fa6d7b03f92046bb" },
     ]},
-    { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
+    { icon: <GrTasks />, title: "Posttest", address: "/test/6643090f1845bac6caaa45ef" },
+
+    // { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
 
   // Dropdown menu
@@ -171,7 +174,7 @@ const Navbar = ({ children }) => {
       <div id="content">
         <nav>
           <div>
-            <LuLayoutGrid
+            <CgMenuGridO 
               className="menuIcon"
               onClick={() => setToggle(!toggle)}
             />
