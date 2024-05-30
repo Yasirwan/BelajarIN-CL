@@ -62,67 +62,75 @@ const Register = () => {
     };
 
     return (
-      <div className="login">
+      <div className="login ">
       <br />
-      <div className="loginContainer bg-gradient[#92c7cf] ">
-  <div className="flex">
-    <div className="w-1/2 loginImage">
-      <img src={coverImage} className="w-full h-full object-cover" />
+
+      <div className="loginContainerleft">
+    <div className=" loginImage">
+      <img src={coverImage}  />
     </div>
-    <div className="w-1/2 loginDetail">
+    </div>
+    <div className="loginContainerright">
+    <div className="loginDetail">
       <div>
-        <h3 className="text-gray-700 text-xl font-medium">Create Your Account</h3>
+        <h3 className="text-gray-700 text-xl font-medium font-sans">Create Your account</h3>
       </div>
+      <br></br>
       
             <div>
               {/* login form  */}
               <form onSubmit={handleFormSubmit}>
+              <p className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Username</p>
                 <input
                   required
                   name="name"
                   value={formData.name}
                   onChange={handleFormChange}
                   type="text"
-                  placeholder="Enter full name"
-                  className="p-2 my-2 border border-gray-300 rounded-md"
+                  placeholder="Full name"
+                  className="p-2 my-2 border border-gray-300 rounded-md font-sans"
                 />
+                <p className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Email</p>
                 <input
                   required
                   name="email"
                   value={formData.email}
                   onChange={handleFormChange}
                   type="email"
-                  placeholder="Enter email"
-                  className="p-2 my-2 border border-gray-300 rounded-md"
+                  placeholder="example@gmail.com"
+                  className="p-2 my-2 border border-gray-300 rounded-md font-sans"
                 />
+                <p className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Password</p>
                 <input
                   required
                   name="password"
                   value={formData.password}
                   onChange={handleFormChange}
                   type="password"
-                  placeholder="Enter password"
-                  className="p-2 my-2 border border-gray-300 rounded-md"
+                  placeholder="Password"
+                  className="p-2 my-2 border border-gray-300 rounded-md font-sans"
                 />
+                <p className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Insert Your Class</p>
                 <input
                   required
                   name="studentClass"
                   value={formData.studentClass}
                   onChange={handleFormChange}
                   type="text"
-                  placeholder="Enter class"
-                  className="p-2 my-2 border border-gray-300 rounded-md"
+                  placeholder="Class"
+                  className="p-2 my-2 border border-gray-300 rounded-md font-sans"
                 />
-                <div className="text-center">
-                  <button type="submit" className="p-2 my-2 bg-pink-500 rounded-md text-white">Sign up</button>
-                  <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Or</h3>
-                  <button onClick={() => navigate('/')} className="p-2 my-2 bg-customBlue rounded-md text-white">Log in</button>
-                </div>
+                <div style={{ textAlign: 'center' }}>
+                <button type="submit" className="px-10 py-2 my-4 font-sans bg-sky-500 hover:bg-sky-700 rounded-md font-medium text-white">Register</button>
+                <p className="">______________Or_______________</p>
+                <div className=" flex items-center justify-center">
+                <span>Have an account?</span><button onClick={() => navigate('/login')} className="p-2 my-4 font-medium hover:font-semibold focus:font-semibold">Log In</button>          
+                </div>  
+                </div>             
               </form>
             </div>
           </div>
         </div>
-      </div>
   
         {/* loading indicator */}
         {contextHolder}

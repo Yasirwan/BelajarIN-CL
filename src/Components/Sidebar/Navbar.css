@@ -56,7 +56,7 @@
 
 }
 #sidebar .side-menu.top li:last-child a {
-  color: var(--customBlue);
+  color: var(--blue);
   font-weight: 700;
 
 }

@@ -51,7 +51,7 @@ const Navbar = ({ children }) => {
     { icon: <FaUserCog  />, title: "Admin", address: "/admin" },
     // { icon: <PiChalkboardTeacher />, title: "Tutors", address: "/tutor" },
     { icon: <FaUsers />, title: "Students", address: "/student" },
-    // { icon: <GrTasks />, title: "Test", address: "/tests" },
+    { icon: <GrTasks />, title: "Test", address: "/tests" },
     { icon: <GrTasks />, title: "Pretest", address: "/test/6643090f1845bac6caaa45ef" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
     { icon: <AiFillAppstore />, title: "Pertemuan 1", childrens: [
@@ -79,7 +79,7 @@ const Navbar = ({ children }) => {
   ];
   const studentData = [
     { icon: <RiHomeSmileFill  />, title: "Dashboard", address: "/home" },
-    // { icon: <GrTasks />, title: "Test", address: "/tests" },
+    { icon: <GrTasks />, title: "Test", address: "/tests" },
     { icon: <GrTasks />, title: "Pretest", address: "/test/6643090f1845bac6caaa45ef" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
     { icon: <AiFillAppstore />, title: "Pertemuan 1", childrens: [
@@ -109,7 +109,7 @@ const Navbar = ({ children }) => {
   const items = [
     {
       key: "1",
-      label: <span onClick={() => handleLogout()}>Logout</span>,
+      label: <span onClick={() => handleLogout()} className="font-sans">Logout</span>,
     },
   ];
 
@@ -155,18 +155,10 @@ const Navbar = ({ children }) => {
               );
               })
             : ""}
-          {/* {userType == "Student" && premium == "false" ? (
-            <Menu
-              Icon={<MdOutlineWorkspacePremium />}
-              Title={"Premium"}
-              Address={"/premium"}
-            />
-          ) : (
-            ""
-          )} */}
-          <span onClick={() => handleLogout()}>
+          
+          {/* <span onClick={() => handleLogout()}>
             <Menu Icon={<IoLogOut  />} Title={"Logout"} Address={""} />
-          </span>
+          </span> */}
         </ul>
       </div>
 
@@ -180,13 +172,13 @@ const Navbar = ({ children }) => {
             />
             {userType == "Student" ? (
               premium == "false" ? (
-                <Link href="/" className="nav-link">
+                <Link href="/" className="nav-link font-sans">
                   Welcome to BelajarIN
                 </Link>
               ) : (""
               )
             ) : (
-              <Link href="/" className="nav-link">
+              <Link href="/" className="nav-link font-sans">
                 Welcome to BelajarIN
               </Link>
             )}
@@ -197,11 +189,11 @@ const Navbar = ({ children }) => {
               <span className="num number">4</span>
             </Link> */}
             <Dropdown menu={{ items }} placement="bottomLeft" arrow>
-              <Link href="/" className="profile">
+              <Link href="/" className="profile font-sans">
                 <img src={user} />
                 <div>
-                  <p>{name}..</p>
-                  <p>
+                  <p className="font-sans">{name}..</p>
+                  <p className="font-sans">
                     {userType} <GoChevronDown />
                   </p>
                 </div>

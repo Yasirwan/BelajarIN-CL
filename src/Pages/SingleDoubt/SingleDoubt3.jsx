@@ -59,7 +59,6 @@ const SingleDoubt3 = () => {
   return (
     <Navbar>
       <div className="singleContent">
-        <Header Title={"Doubt Details"} Address={"Doubt3"} />
         {/* <div className="singleContentData">
         <div className="fileContainer">
   {singleDoubt?.fileType === "jpg" || singleDoubt?.fileType === "jpeg" ? (

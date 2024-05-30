@@ -6,7 +6,6 @@ import { getStudentData, studentRegister } from "../../Redux/student/action";
 //component imports
 import Header from "../../Components/Header/Header";
 import Navbar from "../../Components/Sidebar/Navbar";
-import AddIcon from "../../Components/AddIcon/AddIcon";
 import StudentRow from "../../Components/Table/StudentRow";
 
 //css imports
@@ -122,8 +121,8 @@ const Student = () => {
                   <th>Email</th>
                   <th>Class</th>
                   <th>Access</th>
-                  <th>Edit</th>
-                  <th>Delete</th>
+                  {/* <th>Edit</th>
+                  <th>Delete</th> */}
                 </tr>
               </thead>
               <tbody>
@@ -134,9 +133,9 @@ const Student = () => {
             </table>
           </section>
         </div>
-        <div onClick={showDrawer}>
+        {/* <div onClick={showDrawer}>
           <AddIcon />
-        </div>
+        </div> */}
         <Drawer
           title="Create a new account"
           width={720}

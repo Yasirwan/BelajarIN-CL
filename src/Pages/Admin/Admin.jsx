@@ -138,7 +138,7 @@ const Admin = () => {
         >
           <form onSubmit={(e) => handleSubmit(e)}>
             <input 
-              className="p-2 my-2"
+              className="p-2 my-2 font-sans"
               required
               name="name"
               type="text"
@@ -147,7 +147,7 @@ const Admin = () => {
               onChange={(e) => handleInputChange(e)}
             />
             <input
-              className="p-2 my-2"
+              className="p-2 my-2 font-sans"
               required
               name="email"
               type="email"
@@ -156,7 +156,7 @@ const Admin = () => {
               onChange={(e) => handleInputChange(e)}
             />
             <input
-              className="p-2 my-2"
+              className="p-2 my-2 font-sans"
               required
               name="password"
               type="password"
@@ -164,7 +164,7 @@ const Admin = () => {
               placeholder="Enter Password"
               onChange={(e) => handleInputChange(e)}
             />
-            <input className="p-2 my-2" type="submit" value="Add Admin" />
+            <input className="bg-sky-500 hover:bg-sky-700 p-2 my-2 font-sans" type="submit" value="Add Admin" />
           </form>
 
           {/*main loading indicator  */}

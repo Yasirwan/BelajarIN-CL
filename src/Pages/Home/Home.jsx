@@ -108,7 +108,6 @@ const Home = () => {
         {/* <h1 className="text-xl font-bold text-red-500">Hello World</h1> */}
         <div className="main">
           {/* Header */}
-          <Header Title={"Overview"} Address={"Default"} />
 
           {/* overview section */}
           <div className="overview">
@@ -123,95 +122,58 @@ const Home = () => {
           </div>
 
           {/* Bar nd Pie Chart */}
-          <div className="charts">
-            {/* <div className="lineChart">
-              <div className="chartHead">
-                <p>Top Score</p>
-              </div>
-              <div className="chartBox">
-                <div className="chartOne">
-                  <ResponsiveContainer>
-                    <BarChart width={200} height={300} data={barData}>
-                      <XAxis dataKey="name" />
-                      <Tooltip />
-                      <Legend
-                        verticalAlign="top"
-                        wrapperStyle={{ lineHeight: "40px" }}
-                      />
-                      <ReferenceLine y={0} stroke="#000" />
-                      <Bar dataKey="Earning" fill="#8884d8" />
-                    </BarChart>
-                  </ResponsiveContainer>
-                </div>
-                <div className="chartTwo">
-                  <div>
-                    <BsDownload />
-                    <div>
-                      <p>Income</p>
-                      <h4>$22,678</h4>
-                    </div>
-                    <p>+$456</p>
-                  </div>
-                  <div>
-                    <LiaHandHoldingUsdSolid />
-                    <div>
-                      <p>Expense</p>
-                      <h4>$12,057</h4>
-                    </div>
-                    <p>+$256</p>
-                  </div>
-                  <div>
-                    <PiCurrencyCircleDollarLight />
-                    <div>
-                      <p>Cashback</p>
-                      <h4>8,475</h4>
-                    </div>
-                    <p>+$256</p>
-                  </div>
-                </div>
-              </div>
-            </div> */}
-            <div className="leaderboardData m-0 w-3/4">
-            <div className="chartHead bg-#920000 px-4 py-2 rounded-t-lg">
-        <p className="text-gray-800 font-bold">Leader Board</p>
+          <div className="charts ">
+          <div className="pieBox p-4 md:max-w-2xl">
+        <div className="pieData">
+            <span className="block font-bold text-cyan-800 text-center pl-3">Welcome To BelajarIN</span>
+            <p>&nbsp;</p>
+            <p className="text-wrap text-black-700 text-justify">
+                <ul className="list-disc pl-5">
+                    <li className="font-sans">BelajarIN adalah sebuah media pembelajaran interaktif berupa website LMS yang mengimplementasi model pembelajaran Scaffolding. Website ini dirancang dengan tujuan agar suasana pembelajaran terasa menyenangkan sehingga dapat meningkatkan meningkatkan pemahaman kognitif siswa dalam pembelajaran. BelajarIN dirancang sebagai media pembelajaran dalam skripsi saya dan akan diimplementasikan di sekolah SMKN 4 Padalarang.  </li>
+                    
+                </ul>
+            </p>
+        </div>
     </div>
+            <div className="leaderboardData m-0 w-3/4 md:max-w-lg ">
+            <div className="chartHead bg-#920000 px-4 py-2 rounded-t-lg ">
+              <p className="text-gray-800 font-bold font-sans">Daftar Pengguna</p>
+            </div>
               {/* table */}
               <section className="tableBody">
-                <table>
+                <table className="">
                   <thead>
                     <tr>
-                      <th>Name</th>
-                      <th>Email</th>
-                      <th>Class</th>
-                      {/* <th>Scratch attended</th> */}
-                      <th>Points</th>
+                      <th className="font-sans">Name</th>
+                      <th className="font-sans">Email</th>
+                      <th className="font-sans">Class</th>
                     </tr>
                   </thead>
                   <tbody>
                     {students
                       .map((data, i) => (
                         <tr className="tableRow">
-                          <td>{data.name}</td>
-                          <td>{data.email}</td>
-                          <td>{data.class}</td>
-                          <td>{data.totalScore}</td>
+                          <td className="font-sans">{data.name}</td>
+                          <td className="font-sans">{data.email}</td>
+                          <td className="font-sans">{data.class}</td>
+                          {/* <td>{data.totalScore}</td> */}
                         </tr>
                       ))}
                   </tbody>
                 </table>
               </section>
             </div>
-            <div className="pieChart w-1/4 bg-white border border-gray-200 rounded-lg shadow-md float-left">
+            <div className="pieChart w-1/4 bg-white border border-gray-200 rounded-lg shadow-md float-left ">
     <div className="chartHead bg-#920000 px-4 py-2 rounded-t-lg">
-        <p className="text-gray-800 font-bold">Announcement</p>
+        <p className="text-gray-800 font-bold font-sans">Announcement</p>
     </div>
-    <div className="pieBox p-4">
+    <div className="pieBox p-4 ">
         <div className="pieData">
-            <span className="block font-bold text-red-700 text-center pl-3">Read This !</span>
+            <span className="block font-bold text-red-700 text-center pl-3 font-sans">Read This !</span>
             <p>&nbsp;</p>
             <p className="text-wrap text-black-700 text-justify">
-                <ul className="list-disc pl-3">
-                    <li>Please follow the instructions for using the BelajarIN website according to the teacher's instructions. Do all sessions properly and report any errors on the website to the teacher. Thank you for helping with this research and good luck.</li>
+                <ul className="list-disc pl-1">
+                    <li className="font-sans">Please follow the instructions for using the BelajarIN website according to the teacher's instructions. Do all sessions properly and report any errors on the website to the teacher. Thank you for helping with this research and good luck.</li>
                     
                 </ul>
             </p>
@@ -222,8 +184,8 @@ const Home = () => {
 
 
           </div>
-          <div className="homeFooter">
-          © 2024 BelajarIN | All Rights Reserved | Created by yasirwan
+          <div className="homeFooter font-sans">
+          Copyright © 2024 BelajarIN
           </div>
         </div>
       </Navbar>

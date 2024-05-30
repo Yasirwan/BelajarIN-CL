@@ -9,7 +9,7 @@ const User = () => {
   const handleRetakeQuiz = (e) => {
     e.preventDefault();
     localStorage.removeItem("quiz");
-    window.location.replace("/tests");
+    window.location.replace("/test/6643090f1845bac6caaa45ef");
   };
   return (
     <>

@@ -11,8 +11,8 @@ const Table = ({ Data }) => {
             <th>Name</th>
             <th>Email</th>
             <th>Access</th>
-            <th>Edit</th>
-            <th>Delete</th>
+            <th> </th>
+            <th> </th>
           </tr>
         </thead>
         <tbody>

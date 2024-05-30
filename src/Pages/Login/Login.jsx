@@ -146,47 +146,53 @@ const Login = () => {
       <div className="loginContainerright">
         <div className="loginDetail">
           <div>
-          <h3 className="text-gray-700 text-xl font-medium">Welcome To BelajarIN</h3>
+          <h3 className="text-gray-700 text-xl font-bold font-sans">Welcome Back</h3>
           </div>
+          <br></br>
 
           <div>
             {/* login form  */}
             <form onSubmit={handleFormSubmit}>
+              <p className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Username/Email</p>
               <input
                 required
                 name="email"
                 value={formData.id}
                 onChange={handleFormChange}
                 type="email"
-                placeholder="Enter email"
-                className="p-2 my-2"
+                placeholder="Example@gmail.com"
+                className="p-2 my-2 font-sans "
               />
+              <p className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Password</p>
               <input
                 required
                 name="password"
                 value={formData.password}
                 onChange={handleFormChange}
                 type="password"
-                placeholder="Enter password"
-                className="p-2 my-2"
+                placeholder="******"
+                className="p-2 my-2 font-sans"
               />
+              <p className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Login As</p>
               <select
                 name="type"
                 onChange={handleFormChange}
-                className="p-2 my-2"
+                className="p-2 my-2 font-sans"
                 // Anda juga dapat menambahkan kelas Tailwind pada elemen select
               >
-                <option value="">Select user type</option>
+                <option value="admin">......</option>
                 <option value="admin">Admin</option>
-                <option value="student">Student</option>
+                <option value="student">Siswa</option>
                 {/* <option value="tutor">Guest</option> */}
               </select>
               {/* <button type="submit" className="p-2 my-2">LOGIN</button> */}
               <div style={{ textAlign: 'center' }}>
-                <button type="submit" className="p-2 my-2">Log in</button>
-                <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Or</h3>
-                <button onClick={() => navigate('/register')} className="p-2 my-2" style={{ backgroundColor: '#92C7CF' }}>Register</button>
+                <button type="submit" className="px-10 py-2 my-4 font-sans bg-sky-500 hover:bg-sky-700 rounded-md font-medium text-white">Log in</button>
+                <p className="">______________Or_______________</p>
+                <div className=" flex items-center justify-center">
+                <span>Already have an account?</span><button onClick={() => navigate('/register')} className="p-2 my-4 font-medium hover:font-semibold focus:font-semibold">Register</button>          
               </div>
+                </div>
             </form>
           </div>
         </div>

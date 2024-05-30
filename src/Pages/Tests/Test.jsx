@@ -137,7 +137,6 @@ const Test = () => {
     <Navbar>
       <div className="test">
         {/* header component */}
-        <Header Title={"Test"} Address={"Test"} />
 
         {/* test component */}
         <div className="testData">

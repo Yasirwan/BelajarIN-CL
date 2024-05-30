@@ -81,9 +81,9 @@ const Quiz = () => {
     numberProgressComp.push({
       component: (
         <>
-          <span className={`connector block w-4 h-[1px] bg-pink-500`}></span>
+          <span className={`connector block w-4 h-[1px] bg-blue-500`}></span>
           <span
-            className={`number bg-pink-500 text-sm text-gray-200 h-6 flex justify-center items-center rounded-full w-6`}
+            className={`number bg-blue-500 text-sm text-gray-200 h-6 flex justify-center items-center rounded-full w-6`}
           >
             {numberProgressComp.length + 1}
           </span>
@@ -119,7 +119,6 @@ const Quiz = () => {
   return (
     <Navbar>
       <div className="singleTest">
-      <Header Title={"Test"} Address={"Tests"} />
 
         <div className="quiz-wrapper w-full min-h-[100vh]">
         <div className="md:relative quiz-content h-full col-span-2">
@@ -134,15 +133,15 @@ const Quiz = () => {
                   <div className="max-md:flex hidden">
                     <div className="bar shadow-inner w-full bg-gray-100 flex border rounded-3xl">
                       <div
-                        className={`progress w-[${progressBarWidth}%] shadow-sm rounded-3xl bg-pink-500`}
+                        className={`progress w-[${progressBarWidth}%] shadow-sm rounded-3xl bg-blue-500`}
                       ></div>
                     </div>
                     <span className="text-gray-500 ml-1">
                       {progressBarWidth}%
                     </span>
                   </div>
-                  <div className="relative question-number md:flex hidden mb-8">
-                    {questions.map((question, index) => {
+                  {/* <div className="relative question-number md:flex hidden mb-8"> */}
+                    {/* {questions.map((question, index) => {
                       return (
                         <div
                           className={`disabled flex items-center q-${
@@ -160,15 +159,15 @@ const Quiz = () => {
                           </span>
                         </div>
                       );
-                    })}
-                    <div className={`flex items-center absolute left-0`}>
+                    })} */}
+                    {/* <div className={`flex items-center absolute left-0`}>
                       {numberProgressComp.map((comp) => {
                         return comp.component;
                       })}
                     </div>
-                  </div>
+                  </div> */}
                   <div className="question">
-                    <h1 className="md:text-3xl flex text-gray-500 font-bold leading-[1.6] mb-4">
+                    <h1 className="md:text-3xl flex text-gray-500 font-bold leading-[1.6] mb-4 font-sans">
                       <span className=""></span>{" "}
                       {questions[currentQuestion].question}
                     </h1>
@@ -180,20 +179,20 @@ const Quiz = () => {
                         />
                       )}
                   </div>
-                  <div className="options flex flex-col gap-4">
+                  <div className="options flex flex-col gap-4 ">
                     {questions[currentQuestion].options.map((option, index) => {
                       return (
                         <div
-                          className="option flex gap-4 items-center"
+                          className="font-sans option flex gap-0 items-center"
                           key={index}
                         >
-                          <div className="p-2 bg-pink-50 text-gray-600 border-2 font-bold border-pink-100 w-10 flex justify-center items-center rounded-full h-10">
+                          <div className=" font-sans bg-blue-50 text-gray-600 border-2 font-bold border-blue-100 w-10 flex justify-center items-center rounded-md h-10">
                             {label[index]}
                           </div>
                           <div
                             className={`option w-full relative z-10 py-2 cursor-pointer border-2 border-gray-100 rounded-md bg-gray-50 ${
                               option === selectedOption
-                                ? "shadow-option shadow-pink-500 after:bg-none"
+                                ? "shadow-option shadow-blue-500 after:bg-none"
                                 : ""
                             }`}
                             onClick={(e) =>
@@ -221,7 +220,7 @@ const Quiz = () => {
                       {currentQuestion >= 2 ? (
                         <button
                           onClick={handleSubmitQuiz}
-                          className="bg-gray-500 shadow-lg uppercase w-40 text-white rounded-lg px-4 py-2"
+                          className="bg-blue-600 shadow-lg uppercase w-40 text-white rounded-lg px-4 py-2"
                         >
                           Submit
                         </button>

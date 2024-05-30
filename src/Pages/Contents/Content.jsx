@@ -138,7 +138,6 @@ const Content = () => {
     <Navbar>
       <div className="content">
         {/* header component */}
-        <Header Title={"Session 1"} Address={"Session 1"} />
 
         {/* content component */}
         {/* <div className="contentData">
