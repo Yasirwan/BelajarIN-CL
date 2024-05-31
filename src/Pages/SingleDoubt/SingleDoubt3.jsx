@@ -58,7 +58,7 @@ const SingleDoubt3 = () => {
 
   return (
     <Navbar>
-      <div className="singleContent">
+      <div className="singleContent bg-white">
         {/* <div className="singleContentData">
         <div className="fileContainer">
   {singleDoubt?.fileType === "jpg" || singleDoubt?.fileType === "jpeg" ? (
@@ -86,7 +86,7 @@ const SingleDoubt3 = () => {
           {/* <p>Resolved : {singleDoubt?.resolved == "Yes" ? "Yes" : "No"}</p> */}
         {/* </div> */}
 
-        <div class="m-6 p-4 bg-white rounded-lg shadow-md">
+        <div class="m-6 p-4 bg-white rounded-lg">
           <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
             <div class="flex flex-col md:flex-row md:items-center"> 
               <div class="overview-left mr-4 md:mr-8">
@@ -111,8 +111,8 @@ const SingleDoubt3 = () => {
         </div>
 
 
-        <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
-          <h3 className="text-white font-bold text-center">Lembar Kerja Peserta Didik (LKPD)</h3>
+        <div className="assignmentResponses border-solid border-2 border-gray-300">
+          <h3 className="text-black font-bold text-center">Lembar Kerja Peserta Didik (LKPD)</h3>
         </div>
 
         <div className="grid justify-items-center">
@@ -120,8 +120,8 @@ const SingleDoubt3 = () => {
           <a target="_blank" href="https://docs.google.com/document/d/1Bwnms70dF0CpuFR6P2PQHTE2TnuXCgUj/edit?usp=sharing&ouid=112525555696106018803&rtpof=true&sd=true" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">View</a>
         </div>
 
-        <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
-          <h3 className="text-white font-bold text-center">Form Pengumpulan</h3>
+        <div className="assignmentResponses border-solid border-2 border-gray-300">
+          <h3 className="text-black font-bold text-center">Form Pengumpulan</h3>
         </div>
 
         <div className="doubt3Responses bg-white rounded-lg p-4 my-2">
