@@ -47,7 +47,7 @@ const Login = () => {
           setLoading(false);
           messageApi.open({
             type: "info",
-            content: "Wrong credentials !",
+            content: "Maaf input yang anda masukkan salah",
             duration: 3,
           });
         } else if (res.message === "Access Denied") {
@@ -76,7 +76,7 @@ const Login = () => {
           setLoading(false);
           messageApi.open({
             type: "info",
-            content: "Wrong credentials !",
+            content: "Maaf input yang anda masukkan salah",
             duration: 3,
           });
         } else if (res.message === "Access Denied") {
@@ -105,7 +105,7 @@ const Login = () => {
           setLoading(false);
           messageApi.open({
             type: "info",
-            content: "Wrong credentials !",
+            content: "Maaf input yang anda masukkan salah",
             duration: 3,
           });
         } else if (res.message === "Access Denied") {
