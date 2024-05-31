@@ -141,8 +141,8 @@ const SingleDoubt3 = () => {
           </form>
         </div>
 
-        <div className="singleContentDetails bg-customBlue rounded-lg p-4 my-2">
-          <h3 className="text-white font-bold text-center">Form Tanggapan Multimedia Interaktif</h3>
+        <div className="singleContentDetails border-solid border-2 border-gray-300">
+          <h3 className="text-black font-bold text-center">Form Tanggapan Multimedia Interaktif</h3>
         </div>
 
         <div className="singleContentDetails ">
