@@ -225,7 +225,7 @@ Terima kasih dan Selamat mengerjakan
           </div>
         </div>
 
-        <div className="singleContentDetails border-solid border-2 border-gray-300  ">
+        <div className="singleContentDetails border-solid border-2 border-gray-300">
           <h3 className="text-black font-bold text-center">Form Pretest</h3>
         </div>
 

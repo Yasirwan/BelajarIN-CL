@@ -182,7 +182,7 @@ const Scratchs = () => {
           })}
         </div> */}
 
-<div class="m-6 p-4 bg-white rounded-lg shadow-md">
+<div class="m-6 p-4 bg-white rounded-lg">
 <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
   <div class="flex flex-col md:flex-row md:items-center"> 
     <div class="overview-left mr-4 md:mr-8">
@@ -205,8 +205,8 @@ const Scratchs = () => {
 </div>
 </div>
 
-<div className="scratchResponses bg-customBlue rounded-lg p-4 my-2">
-          <h3 className="text-white font-bold text-center">Quizziz</h3>
+<div className="scratchResponses border-solid border-2 border-gray-300">
+          <h3 className="text-black font-bold text-center">Quizziz</h3>
         </div>
 
         <div class="mx-auto w-md max-w-screen-lg">
