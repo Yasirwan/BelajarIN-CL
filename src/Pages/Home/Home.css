@@ -1,8 +1,8 @@
 .main {
   width: 100%;
-  max-height: calc(100vh - 75px);
+  height: 100%;
   overflow-y: auto;
-  background-color: var(--light);
+  background-color: white;
 }
 .main::-webkit-scrollbar {
   display: none;
@@ -67,7 +67,6 @@
   padding: 10px;
   background: white;
   border-radius: 8px;
-  box-shadow: rgba(178, 181, 184, 0.2) 0px 8px 24px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -145,7 +144,6 @@
   letter-spacing: 0.5px;
   color: rgb(36, 33, 33);
   padding-bottom: 25px;
-  border-bottom: 1px solid rgb(231, 231, 231);
 }
 
 .main .charts .chartBox {
@@ -164,7 +162,7 @@
 }
 .main .charts .chartBox .chartTwo > div {
   padding: 10px;
-  background-color: var(--light);
+  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -193,8 +191,9 @@
   width: 35%;
   background-color: white;
   padding: 30px;
-  border-radius: 8px;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 8px;  
+  border-left: 3px solid rgb(231, 231, 231)
+
 }
 .main .charts .pieChart .pieBox {
   position: relative;
@@ -225,10 +224,10 @@
   margin-top: 30px;
   background-color: white;
   text-align: center;
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   font-size: 13px;
   color: rgb(66, 66, 66);
   font-weight: 400;
+
 }
 
 @media screen and (max-width: 1200px) {

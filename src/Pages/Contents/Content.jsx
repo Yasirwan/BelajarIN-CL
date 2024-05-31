@@ -191,10 +191,10 @@ const Content = () => {
     <div className="singleContentDetails bg-customBlue rounded-lg p-4 my-2">
           <h3 className="text-white font-bold text-center">Video Pembelajaran</h3>
         </div>
-        <div class="mx-auto w-full max-w-screen-xl">
+        <div class="mx-auto w-full max-w-screen-md">
         <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Algoritma</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/fLqHSiJMMyI"
+            <iframe src="https://www.youtube.com/embed/uqVJc9lLknA?si"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
@@ -202,7 +202,7 @@ const Content = () => {
 
           <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Naratif dan Pseudocode</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/Yw6YscAMe3U"
+            <iframe src="https://www.youtube.com/embed/of6gKz-0nQM"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
@@ -210,7 +210,7 @@ const Content = () => {
           
           <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Flowchart</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/1S35wmupqn4"
+            <iframe src="https://www.youtube.com/embed/XiRgSeKiYew"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>

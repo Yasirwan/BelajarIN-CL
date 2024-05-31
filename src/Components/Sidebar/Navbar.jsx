@@ -51,7 +51,7 @@ const Navbar = ({ children }) => {
     { icon: <FaUserCog  />, title: "Admin", address: "/admin" },
     // { icon: <PiChalkboardTeacher />, title: "Tutors", address: "/tutor" },
     { icon: <FaUsers />, title: "Students", address: "/student" },
-    { icon: <GrTasks />, title: "Test", address: "/tests" },
+    // { icon: <GrTasks />, title: "Test", address: "/tests" },
     { icon: <GrTasks />, title: "Pretest", address: "/test/6643090f1845bac6caaa45ef" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
     { icon: <AiFillAppstore />, title: "Pertemuan 1", childrens: [
@@ -79,9 +79,9 @@ const Navbar = ({ children }) => {
   ];
   const studentData = [
     { icon: <RiHomeSmileFill  />, title: "Dashboard", address: "/home" },
-    { icon: <GrTasks />, title: "Test", address: "/tests" },
-    { icon: <GrTasks />, title: "Pretest", address: "/test/6643090f1845bac6caaa45ef" },
-    // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
+    // { icon: <GrTasks />, title: "Test", address: "/tests" },
+    // { icon: <GrTasks />, title: "Pretest", address: "/test/6643090f1845bac6caaa45ef" },
+    { icon: <GrTasks />, title: "Pretest", address: "/lessons" },
     { icon: <AiFillAppstore />, title: "Pertemuan 1", childrens: [
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
@@ -173,13 +173,11 @@ const Navbar = ({ children }) => {
             {userType == "Student" ? (
               premium == "false" ? (
                 <Link href="/" className="nav-link font-sans">
-                  Welcome to BelajarIN
                 </Link>
               ) : (""
               )
             ) : (
               <Link href="/" className="nav-link font-sans">
-                Welcome to BelajarIN
               </Link>
             )}
           </div>

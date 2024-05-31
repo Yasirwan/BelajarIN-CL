@@ -142,16 +142,16 @@ const SingleDoubt = () => {
 
 {singleDoubt?.response?.map((data, i) => {
   if (user?.userType === "Admin") {
-    return (
-      <div
-        key={i}
-        className="doubtResponses bg-red-100 rounded-lg p-4 my-2"
-      >
-        <p>No. {i + 1}</p>
-        <p>{data}</p>
-      </div>
-    );
-  } else {
+  //   return (
+  //     <div
+  //       key={i}
+  //       className="doubtResponses p-4 my-2"
+  //     >
+  //       <p>No. {i + 1}</p>
+  //       <p>{data}</p>
+  //     </div>
+  //   );
+  // } else {
     return null;
   }
 })}

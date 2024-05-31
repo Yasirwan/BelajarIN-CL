@@ -111,7 +111,6 @@ const Student = () => {
   return (
     <Navbar>
       <div className="admin">
-        <Header Title={"Student Data"} Address={"Student"} />
         <div className="adminData">
           <section className="tableBody">
             <table>
