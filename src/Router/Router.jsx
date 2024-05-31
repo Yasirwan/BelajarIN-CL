@@ -27,6 +27,7 @@ import SingleDoubt3 from "../Pages/SingleDoubt/SingleDoubt3";
 import LeaderBoard from "../Pages/LeaderBoard/LeaderBoard";
 import User from "../Pages/User/User";
 import Quiz from "../Pages/Quiz/Quiz";
+import Quiz2 from "../Pages/Quiz/Quiz2"
 import { useContext } from "react";
 import QuizContext from "../contexts/QuizContext"
 import Register from "../Pages/Register/Register";

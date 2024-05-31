@@ -12,5 +12,6 @@
   padding: 20px;
   background: white;
   border-radius: 8px;
-  box-shadow: rgba(178, 181, 184, 0.2) 0px 8px 24px;
+  border-left: 3px solid rgb(231, 231, 231)
+  
 }

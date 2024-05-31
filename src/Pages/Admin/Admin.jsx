@@ -112,7 +112,6 @@ const Admin = () => {
     <Navbar>
       <div className="admin">
         {/* header component  */}
-        <Header Title={"Admin Data"} Address={"Admin"} />
 
         {/* table component  */}
         <div className="adminData">

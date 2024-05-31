@@ -159,15 +159,15 @@ const SingleDoubt3 = () => {
 
 {singleDoubt3?.response?.map((data, i) => {
   if (user?.userType === "Admin") {
-    return (
-      <div
-        key={i}
-        className="doubt3Responses bg-red-100 rounded-lg p-4 my-2"
-      >
-        <p>No. {i + 1}</p>
-        <p>{data}</p>
-      </div>
-    );
+    // return (
+    //   <div
+    //     key={i}
+    //     className="doubt3Responses bg-red-100 rounded-lg p-4 my-2"
+    //   >
+    //     <p>No. {i + 1}</p>
+    //     <p>{data}</p>
+    //   </div>
+    // );
   } else {
     return null;
   }

@@ -123,7 +123,7 @@ const Home = () => {
 
           {/* Bar nd Pie Chart */}
           <div className="charts ">
-          <div className="pieBox p-4 md:max-w-2xl">
+          <div className="pieBox p-4 md:max-w-xl">
         <div className="pieData">
             <span className="block font-bold text-cyan-800 text-center pl-3">Welcome To BelajarIN</span>
             <p>&nbsp;</p>
@@ -136,9 +136,7 @@ const Home = () => {
         </div>
     </div>
             <div className="leaderboardData m-0 w-3/4 md:max-w-lg ">
-            <div className="chartHead bg-#920000 px-4 py-2 rounded-t-lg ">
-              <p className="text-gray-800 font-bold font-sans">Daftar Pengguna</p>
-            </div>
+            
               {/* table */}
               <section className="tableBody">
                 <table className="">
@@ -163,8 +161,8 @@ const Home = () => {
                 </table>
               </section>
             </div>
-            <div className="pieChart w-1/4 bg-white border border-gray-200 rounded-lg shadow-md float-left ">
-    <div className="chartHead bg-#920000 px-4 py-2 rounded-t-lg">
+            <div className="pieChart w-1/4 bg-white rounded-lg float-left md:max-w-xl">
+    <div className="chartHead bg-#920000 px-4 py-2 rounded-t-lg md:max-w-xl">
         <p className="text-gray-800 font-bold font-sans">Announcement</p>
     </div>
     <div className="pieBox p-4 ">
@@ -180,11 +178,15 @@ const Home = () => {
         </div>
     </div>
 </div>
-
+                      
 
 
           </div>
+          
           <div className="homeFooter font-sans">
+          
+          </div>
+          <div className="homeFooter font-sans border-t-2">
           Copyright © 2024 BelajarIN
           </div>
         </div>

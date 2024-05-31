@@ -191,26 +191,18 @@ const Content2 = () => {
     <div className="singleContent2Details bg-customBlue rounded-lg p-4 my-2">
           <h3 className="text-white font-bold text-center">Video Pembelajaran</h3>
         </div>
-        <div class="mx-auto w-full max-w-screen-xl">
+        <div class="mx-auto w-full max-w-screen-md">
         <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Pemrograman</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/Wzxknjyd3hE"
+            <iframe src="https://www.youtube.com/embed/s0g4ty29Xgg"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
           </div>
 
-          <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Tipe Data</h3>
+          <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Tipe Data dan Variabel</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/Ei3nBpyTtew"
-            title="YouTube video player"
-            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
-          </div>
-          
-          <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Variabel</h3>
-          <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/vnYWr7jFl5M"
+            <iframe src="https://www.youtube.com/embed/_agqO67gOgg"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
@@ -218,7 +210,7 @@ const Content2 = () => {
 
           <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Operator</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/bxNqTu4N-Is"
+            <iframe src="https://www.youtube.com/embed/rZ-8Qz0iIQk"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
