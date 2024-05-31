@@ -110,7 +110,7 @@ const SingleDoubt2 = () => {
           </div>
         </div>
 
-        <div className="assignmentResponses border-solid border-2 border-gray-300">
+        <div className="assignmentResponses border-solid border-2 border-customBlue">
           <h3 className="text-black font-bold text-center">Lembar Kerja Peserta Didik (LKPD)</h3>
         </div>
         
@@ -119,7 +119,7 @@ const SingleDoubt2 = () => {
           <a target="_blank" href="https://docs.google.com/document/d/1jY2kj_ex-tgT1GmVWfqNV_NAkLC6yGvk/edit?usp=sharing&ouid=112525555696106018803&rtpof=true&sd=true" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">View</a>
         </div>
 
-        <div className="assignmentResponses border-solid border-2 border-gray-300">
+        <div className="assignmentResponses border-solid border-2 border-customBlue">
           <h3 className="text-black font-bold text-center">Form Pengumpulan</h3>
         </div>
 
