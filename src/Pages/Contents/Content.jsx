@@ -167,7 +167,7 @@ const Content = () => {
           </div>
         </div>
 
-        <div className="singleContentDetails border-solid border-2 border-gray-300">
+        <div className="singleContentDetails border-solid border-2 border-customBlue">
           <h3 className="text-black font-bold text-center">Buku Siswa</h3>
         </div>
 
@@ -188,7 +188,7 @@ const Content = () => {
       </div>
     </div>
 
-    <div className="singleContentDetails border-solid border-2 border-gray-300">
+    <div className="singleContentDetails border-solid border-2 border-customBlue">
           <h3 className="text-black font-bold text-center">Video Pembelajaran</h3>
         </div>
         <div class="mx-auto w-full max-w-screen-md">

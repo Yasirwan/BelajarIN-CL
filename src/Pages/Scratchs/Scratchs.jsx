@@ -205,7 +205,7 @@ const Scratchs = () => {
 </div>
 </div>
 
-<div className="scratchResponses border-solid border-2 border-gray-300">
+<div className="scratchResponses border-solid border-2 border-customBlue">
           <h3 className="text-black font-bold text-center">Quizziz</h3>
         </div>
 
