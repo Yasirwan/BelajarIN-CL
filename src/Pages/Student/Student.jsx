@@ -110,7 +110,7 @@ const Student = () => {
 
   return (
     <Navbar>
-      <div className="admin">
+      <div className="admin bg-white">
         <div className="adminData">
           <section className="tableBody">
             <table>
