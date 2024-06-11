@@ -2,7 +2,7 @@
   width: 100%;
   max-height: calc(100vh - 75px);
   overflow-y: auto;
-  background-color: var(--light);
+  background-color: white;
 }
 .scratchs::-webkit-scrollbar {
   display: none;

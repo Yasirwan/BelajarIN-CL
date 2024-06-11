@@ -110,9 +110,8 @@ const Admin = () => {
 
   return (
     <Navbar>
-      <div className="admin">
+      <div className="admin bg-white">
         {/* header component  */}
-        <Header Title={"Admin Data"} Address={"Admin"} />
 
         {/* table component  */}
         <div className="adminData">
@@ -137,6 +136,7 @@ const Admin = () => {
           }
         >
           <form onSubmit={(e) => handleSubmit(e)}>
+          <p className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Username</p>
             <input 
               className="p-2 my-2 font-sans"
               required
@@ -146,6 +146,7 @@ const Admin = () => {
               placeholder="Enter Name"
               onChange={(e) => handleInputChange(e)}
             />
+            <p className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Email</p>
             <input
               className="p-2 my-2 font-sans"
               required
@@ -155,6 +156,7 @@ const Admin = () => {
               placeholder="Enter Email"
               onChange={(e) => handleInputChange(e)}
             />
+            <p className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Password</p>
             <input
               className="p-2 my-2 font-sans"
               required
