@@ -107,6 +107,7 @@ const Home = () => {
       <Navbar>
         {/* <h1 className="text-xl font-bold text-red-500">Hello World</h1> */}
         <div className="main">
+        <Header Title={"Dashboard"} Address={"Dashboard"} />
           {/* Header */}
 
           {/* overview section */}

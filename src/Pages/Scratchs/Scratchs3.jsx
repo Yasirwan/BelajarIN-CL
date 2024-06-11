@@ -175,6 +175,7 @@ const Scratchs3 = () => {
   return (
     <Navbar>
       <div className="scratchs3">
+      <Header Title={"Session 2"} Address={"Session 2"} />
         {contextHolder}
         {/* <div className="scratchData">
           {scratch?.map((data, i) => {

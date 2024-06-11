@@ -23,7 +23,13 @@ import { AiFillAppstore } from "react-icons/ai";
 import { GiNotebook } from "react-icons/gi";
 import { IoLogOut } from "react-icons/io5";
 import { CgMenuGridO } from "react-icons/cg";
-
+import { IoSettingsSharp } from "react-icons/io5";
+import { IoDocumentTextOutline } from "react-icons/io5";
+import { MdLooksOne } from "react-icons/md";
+import { MdLooksTwo } from "react-icons/md";
+import { MdLooks3 } from "react-icons/md";
+import { IoGameController } from "react-icons/io5";
+import { MdLibraryBooks } from "react-icons/md";
 
 // CSS imports
 import "./Navbar.css";
@@ -51,26 +57,26 @@ const Navbar = ({ children }) => {
     { icon: <FaUserCog  />, title: "Admin", address: "/admin" },
     // { icon: <PiChalkboardTeacher />, title: "Tutors", address: "/tutor" },
     { icon: <FaUsers />, title: "Students", address: "/student" },
-    { icon: <GrTasks />, title: "Test", address: "/tests" },
+    // { icon: <GrTasks />, title: "Test", address: "/tests" },
     { icon: <GrTasks />, title: "Pretest", address: "/test/6643090f1845bac6caaa45ef" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
-    { icon: <AiFillAppstore />, title: "Pertemuan 1", childrens: [
+    { icon: <MdLooksOne />, title: "Pertemuan 1", childrens: [
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubt/6644eb2636db1f98901851bc" },
+      { icon: <IoGameController  />, title: "Session 2", address: "/scratchs" },
+      { icon: <MdLibraryBooks  />, title: "Session 3", address: "/doubt/6644eb2636db1f98901851bc" },
     ]},
-    { icon: <AiFillAppstore />, title: "Pertemuan 2", childrens: [
+    { icon: <MdLooksTwo />, title: "Pertemuan 2", childrens: [
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents2" },
-      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs2" },
+      { icon: <IoGameController  />, title: "Session 2", address: "/scratchs2" },
       // { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments2" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubt2/6644eb4836db1f98901851c0" },
+      { icon: <MdLibraryBooks  />, title: "Session 3", address: "/doubt2/6644eb4836db1f98901851c0" },
     ]},
-    { icon: <AiFillAppstore />, title: "Pertemuan 3", childrens: [
+    { icon: <MdLooks3 />, title: "Pertemuan 3", childrens: [
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/664a22a5fa6d7b03f92046bb" },
+      { icon: <IoGameController  />, title: "Session 2", address: "/scratchs3" },
+      { icon: <MdLibraryBooks  />, title: "Session 3", address: "/doubt3/664a22a5fa6d7b03f92046bb" },
     ]},
   
     { icon: <GrTasks />, title: "Posttest", address: "/test/66430940d161a10cf56217b5" },
@@ -79,26 +85,26 @@ const Navbar = ({ children }) => {
   ];
   const studentData = [
     { icon: <RiHomeSmileFill  />, title: "Dashboard", address: "/home" },
-    { icon: <GrTasks />, title: "Test", address: "/tests" },
+    // { icon: <GrTasks />, title: "Test", address: "/tests" },
     { icon: <GrTasks />, title: "Pretest", address: "/test/6643090f1845bac6caaa45ef" },
     // { icon: <AiOutlineRead />, title: "Lessons", address: "/lessons" },
-    { icon: <AiFillAppstore />, title: "Pertemuan 1", childrens: [
+    { icon: <MdLooksOne />, title: "Pertemuan 1", childrens: [
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubt/6644eb2636db1f98901851bc" },
+      { icon: <IoGameController  />, title: "Session 2", address: "/scratchs" },
+      { icon: <MdLibraryBooks  />, title: "Session 3", address: "/doubt/6644eb2636db1f98901851bc" },
     ]},
-    { icon: <AiFillAppstore />, title: "Pertemuan 2", childrens: [
+    { icon: <MdLooksTwo />, title: "Pertemuan 2", childrens: [
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents2" },
-      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs2" },
+      { icon: <IoGameController  />, title: "Session 2", address: "/scratchs2" },
       // { icon: <MdOutlineAssignment />, title: "Session 3", address: "/assignments2" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubt2/6644eb4836db1f98901851c0" },
+      { icon: <MdLibraryBooks  />, title: "Session 3", address: "/doubt2/6644eb4836db1f98901851c0" },
     ]},
-    { icon: <AiFillAppstore />, title: "Pertemuan 3", childrens: [
+    { icon: <MdLooks3 />, title: "Pertemuan 3", childrens: [
       { icon: <MdVideoLibrary  />, title: "Session 1", address: "/contents3" },
       // { icon: <IoBulbOutline />, title: "Knowledge", address: "/doubts" },
-      { icon: <PiGameControllerDuotone  />, title: "Session 2", address: "/scratchs3" },
-      { icon: <GiNotebook />, title: "Session 3", address: "/doubt3/664a22a5fa6d7b03f92046bb" },
+      { icon: <IoGameController  />, title: "Session 2", address: "/scratchs3" },
+      { icon: <MdLibraryBooks  />, title: "Session 3", address: "/doubt3/664a22a5fa6d7b03f92046bb" },
     ]},
     { icon: <GrTasks />, title: "Posttest", address: "/test/66430940d161a10cf56217b5" },
 
@@ -109,8 +115,29 @@ const Navbar = ({ children }) => {
   const items = [
     {
       key: "1",
-      label: <span onClick={() => handleLogout()} className="font-sans">Logout</span>,
+      label:
+      <span className="text-center block" style={{ borderBottom: "1px solid rgb(231, 231, 231)" }}>
+      <p>{name}</p>
+      <p> as {userType} </p>
+      </span>,
     },
+      {
+        key: "2",
+        label: (
+          <span className="flex justify-end items-center">
+          Settings
+          <IoSettingsSharp className="text-gray-500 ml-2" />
+        </span>
+      ),
+      },
+        {
+          key: "3",
+          label:
+          <span onClick={() => handleLogout()} className="flex justify-end items-center">
+            Logout
+            < IoLogOut className="text-gray-500 ml-2" />
+            </span>,
+        }
   ];
 
   //logout function
@@ -166,7 +193,7 @@ const Navbar = ({ children }) => {
       <div id="content">
         <nav>
           <div>
-            <CgMenuGridO 
+            <AiFillAppstore 
               className="menuIcon"
               onClick={() => setToggle(!toggle)}
             />

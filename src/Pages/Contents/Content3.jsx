@@ -138,6 +138,7 @@ const Content3 = () => {
     <Navbar>
       <div className="content3">
         {/* header component */}
+        <Header Title={"Session 1"} Address={"Session 1"} />
 
         {/* content component */}
         {/* <div className="content3Data">
@@ -194,7 +195,7 @@ const Content3 = () => {
         <div class="mx-auto w-full max-w-screen-xl">
         <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Percabangan If</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/6dAAX5B85PM"
+            <iframe src="https://www.youtube.com/embed/iRrS2-TYmuo"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
@@ -202,7 +203,7 @@ const Content3 = () => {
 
           <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Percabangan If-Else</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/6dAAX5B85PM"
+            <iframe src="https://www.youtube.com/embed/eeeXcilV6QU"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
@@ -210,7 +211,7 @@ const Content3 = () => {
           
           <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Percabangan If-Else-If</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/_lxIFFLFdBk"
+            <iframe src="https://www.youtube.com/embed/gT0TaouoLAQ"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
@@ -218,7 +219,7 @@ const Content3 = () => {
 
           <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Percabangan Switch Case</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/u5DpGWeVSG8"
+            <iframe src="https://www.youtube.com/embed/ZKLNTxVTpHM"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
@@ -226,7 +227,7 @@ const Content3 = () => {
 
           <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Percabangan Nested-If</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/5jbYsYj1-v0"
+            <iframe src="https://www.youtube.com/embed/ow5SP7qz2kk"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
@@ -234,7 +235,7 @@ const Content3 = () => {
 
           <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Perulangan For</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/ZeqJewFm7zc"
+            <iframe src="https://www.youtube.com/embed/Fc3eESOB8fY"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
@@ -242,7 +243,7 @@ const Content3 = () => {
 
           <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Perulangan While</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/kO8iL-yR6uA"
+            <iframe src="https://www.youtube.com/embed/9KwlHgHO-ws"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
@@ -250,7 +251,7 @@ const Content3 = () => {
 
           <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'bold' }}>Perulangan Do-While</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
-            <iframe src="https://www.youtube.com/embed/Pzy3XWzORNw"
+            <iframe src="https://www.youtube.com/embed/rCXzo-QBHis"
             title="YouTube video player"
             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>

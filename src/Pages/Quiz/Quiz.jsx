@@ -8,6 +8,7 @@ import Navbar from "../../Components/Sidebar/Navbar";
 import Header from "../../Components/Header/Header";
 
 import { useDispatch, useSelector } from "react-redux";
+import heroImage from '/img/hero2.png';
 
 const Quiz = () => {
   let { score, setScore } = useContext(QuizContext);
@@ -118,9 +119,48 @@ const Quiz = () => {
 
   return (
     <Navbar>
-      <div className="singleTest">
 
-        <div className="quiz-wrapper w-full min-h-[100vh]">
+      <div className="singleTest">
+      <Header Title={"Test"} Address={"Test"} />
+
+      <div class="m-6 p-4 ">
+          <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
+            <div class="flex flex-col md:flex-row md:items-center"> 
+              <div class="overview-left mr-4 md:mr-8">
+                <img class="md:w-48" src={heroImage} alt="Hero Image"/>
+              </div>
+            </div>
+
+            <div class="overview-right ml-4 md:ml-8">
+              <div class="container mx-auto">
+                <h1 class="text-xl font-bold mb-2">Soal Postest Algoritma Dan Pemrograman SMKN 4 Padalarang</h1>
+                <div class="flex flex-col items-start">
+                  <p class="text-gray-600 mb-4">
+                  Mohon isi formulir ini dengan baik dan benar.  Setiap jawaban akan dimasukkan ke dalam nilai karena  Postest ini bertujuan untuk mengukur pengetahuan siswa setelah dilakukan pembelajaran Algoritma dan Pemrograman menggunakan website BelajarIN X Oracle SMKN 4 Padalarang.
+Terima kasih dan Selamat mengerjakan
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="singleContentDetails border-solid border-2 border-customBlue">
+          <h3 className="text-black font-bold text-center">Form Postest</h3>
+        </div>
+
+        <div className="singleContentDetails ">
+
+      <div className="flex justify-center">
+        <div className="w-full md:w-1/2 p-4">
+          <div class="flex items-center justify-center">
+          <span className="p-1">Silahkan klik  </span><a target="_blank" href="https://forms.gle/gUDupXHjAJYTu24L7" class="inline-block font-medium hover:font-semibold focus:font-semibold  ">Start</a><span className="p-1"> untuk memulai test</span>
+          </div>
+        </div>
+      </div>
+      </div>
+
+        {/* <div className="quiz-wrapper w-full min-h-[100vh]">
         <div className="md:relative quiz-content h-full col-span-2">
           {isLoading ? (
             <Spiner />
@@ -140,32 +180,6 @@ const Quiz = () => {
                       {progressBarWidth}%
                     </span>
                   </div>
-                  {/* <div className="relative question-number md:flex hidden mb-8"> */}
-                    {/* {questions.map((question, index) => {
-                      return (
-                        <div
-                          className={`disabled flex items-center q-${
-                            index + 1
-                          }`}
-                          key={index}
-                        >
-                          <span
-                            className={`connector block w-4 h-[1px] bg-gray-200`}
-                          ></span>
-                          <span
-                            className={`number bg-gray-200 text-sm text-gray-500 h-6 flex justify-center items-center rounded-full w-6`}
-                          >
-                            {index + 1}
-                          </span>
-                        </div>
-                      );
-                    })} */}
-                    {/* <div className={`flex items-center absolute left-0`}>
-                      {numberProgressComp.map((comp) => {
-                        return comp.component;
-                      })}
-                    </div>
-                  </div> */}
                   <div className="question">
                     <h1 className="md:text-3xl flex text-gray-500 font-bold leading-[1.6] mb-4 font-sans">
                       <span className=""></span>{" "}
@@ -241,7 +255,7 @@ const Quiz = () => {
             </div>
           )}
         </div>
-      </div>
+      </div> */}
       </div>
       </Navbar>
   );

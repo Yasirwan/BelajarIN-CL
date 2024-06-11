@@ -137,6 +137,7 @@ const Doubts = () => {
   return (
     <Navbar>
       <div className="content">
+      <Header Title={"Session 1"} Address={"Session 1"} />
 
         {/* <h3>Unsolved Doubts</h3> */}
         <div className="contentData">
