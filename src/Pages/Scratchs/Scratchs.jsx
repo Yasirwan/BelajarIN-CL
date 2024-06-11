@@ -175,6 +175,7 @@ const Scratchs = () => {
   return (
     <Navbar>
       <div className="scratchs">
+      <Header Title={"Session 2"} Address={"Session 2"} />
         {contextHolder}
         {/* <div className="scratchData">
           {scratch?.map((data, i) => {
@@ -182,7 +183,7 @@ const Scratchs = () => {
           })}
         </div> */}
 
-<div class="m-6 p-4 bg-white rounded-lg">
+<div class="m-6 p-4 bg-white rounded-lg shadow-md">
 <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
   <div class="flex flex-col md:flex-row md:items-center"> 
     <div class="overview-left mr-4 md:mr-8">
@@ -205,11 +206,11 @@ const Scratchs = () => {
 </div>
 </div>
 
-<div className="scratchResponses border-solid border-2 border-customBlue">
-          <h3 className="text-black font-bold text-center">Quizziz</h3>
+<div className="scratchResponses bg-customBlue rounded-lg p-4 my-2">
+          <h3 className="text-white font-bold text-center">Quizziz</h3>
         </div>
 
-        <div class="mx-auto w-md max-w-screen-lg">
+        <div class="mx-auto w-md max-w-screen-md">
           <div class="relative" style={{ paddingTop: "75%" }}>
             <iframe src="https://quizizz.com/join?gc=79066276" allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
           </div>

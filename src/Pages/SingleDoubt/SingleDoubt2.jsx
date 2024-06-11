@@ -58,7 +58,8 @@ const SingleDoubt2 = () => {
 
   return (
     <Navbar>
-      <div className="singleContent bg-white">
+      <div className="singleContent">
+      <Header Title={"Session 3"} Address={"Session 3"} />
         {/* <div className="singleContentData">
         <div className="fileContainer">
   {singleDoubt?.fileType === "jpg" || singleDoubt?.fileType === "jpeg" ? (
@@ -86,7 +87,7 @@ const SingleDoubt2 = () => {
           {/* <p>Resolved : {singleDoubt?.resolved == "Yes" ? "Yes" : "No"}</p> */}
         {/* </div> */}
 
-        <div class="m-6 p-4 bg-white rounded-lg">
+        <div class="m-6 p-4 bg-white rounded-lg shadow-md">
           <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
             <div class="flex flex-col md:flex-row md:items-center"> 
               <div class="overview-left mr-4 md:mr-8">
@@ -110,8 +111,8 @@ const SingleDoubt2 = () => {
           </div>
         </div>
 
-        <div className="assignmentResponses border-solid border-2 border-customBlue">
-          <h3 className="text-black font-bold text-center">Lembar Kerja Peserta Didik (LKPD)</h3>
+        <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
+          <h3 className="text-white font-bold text-center">Lembar Kerja Peserta Didik (LKPD)</h3>
         </div>
         
         <div className="grid justify-items-center">
@@ -119,8 +120,8 @@ const SingleDoubt2 = () => {
           <a target="_blank" href="https://docs.google.com/document/d/1jY2kj_ex-tgT1GmVWfqNV_NAkLC6yGvk/edit?usp=sharing&ouid=112525555696106018803&rtpof=true&sd=true" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">View</a>
         </div>
 
-        <div className="assignmentResponses border-solid border-2 border-customBlue">
-          <h3 className="text-black font-bold text-center">Form Pengumpulan</h3>
+        <div className="assignmentResponses bg-customBlue rounded-lg p-4 my-2">
+          <h3 className="text-white font-bold text-center">Form Pengumpulan</h3>
         </div>
 
         <div className="doubt2Responses bg-white rounded-lg p-4 my-2">
@@ -134,7 +135,7 @@ const SingleDoubt2 = () => {
               className="mb-2 max-w-md mx-auto border-customBlue"
               value={descPengetahuanAkhir}
               onChange={(e) => setDescPengetahuanAkhir(e.target.value)}
-              placeholder="Input here"
+              placeholder="Contoh : Kelompok 1, https://drive.google.com"
             />
               <input type="submit" className="bg-customBlue hover:bg-customBlue text-white py-2 px-4 rounded-2xl border-none max-w-md mx-auto" />
           </form>
@@ -142,15 +143,15 @@ const SingleDoubt2 = () => {
 
 {singleDoubt2?.response?.map((data, i) => {
   if (user?.userType === "Admin") {
-    // return (
-    //   <div
-    //     key={i}
-    //     className="doubt2Responses bg-red-100 rounded-lg p-4 my-2"
-    //   >
-    //     <p>No. {i + 1}</p>
-    //     <p>{data}</p>
-    //   </div>
-    // );
+    return (
+      <div
+        key={i}
+        className="doubt2Responses bg-red-100 rounded-lg p-4 my-2"
+      >
+        <p>No. {i + 1}</p>
+        <p>{data}</p>
+      </div>
+    );
   } else {
     return null;
   }

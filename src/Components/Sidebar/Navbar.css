@@ -6,7 +6,7 @@
   width: 280px;
   height: 100%;
   background: rgb(146,199,207);
-  background: linear-gradient(212deg, rgba(146,199,207,1) 0%, rgba(170,215,217,1) 33%, rgba(251,249,241,1) 66%, rgba(229,225,218,1) 100%);  
+  background: linear-gradient(212deg, rgba(146,199,207,1) 0%, rgba(170,215,217,1) 50%, rgba(251,249,241,1) 100%);  
   transition: 0.6s ease-out;
   overflow-x: hidden;
   scrollbar-width: none;
@@ -92,7 +92,7 @@
 #content nav {
   height: 75px;
   background: rgb(146,199,207);
-  background: linear-gradient(90deg, rgba(146,199,207,1) 0%, rgba(170,215,217,1) 32%, rgba(201,228,226,1) 57%, rgba(251,249,241,1) 80%, rgba(229,225,218,1) 100%);
+  background: linear-gradient(90deg, rgba(146,199,207,1) 0%, rgba(170,215,217,1) 50%, rgba(251,249,241,1) 100%);  
   padding: 0 24px;
   display: flex;
   align-items: center;

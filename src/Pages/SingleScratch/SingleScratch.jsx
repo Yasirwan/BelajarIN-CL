@@ -108,7 +108,7 @@ const SingleScratch = () => {
           {/* <p>Resolved : {singleScratch?.resolved == "Yes" ? "Yes" : "No"}</p> */}
         </div>
 
-        <div class="mx-auto w-full max-w-screen-xl">
+        <div class="mx-auto w-full max-w-screen-md">
           <div class="relative" style={{ paddingTop: "75%" }}>
             <iframe src="https://quizizz.com/join?gc=84045886" allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
           </div>

@@ -7,6 +7,7 @@ import scratchReducer from "./scratch/reducer";
 import scratch2Reducer from "./scratch/reducer2";
 import scratch3Reducer from "./scratch/reducer3";
 import lessonReducer from "./lesson/reducer";
+import lessonxReducer from "./lesson/reducerx";
 import contentReducer from "./content/reducer";
 import assignmentReducer from "./assignment/reducer";
 import testReducer from "./test/reducer";
@@ -25,6 +26,7 @@ export const rootReducer = combineReducers({
   scratch2: scratch2Reducer,
   scratch3: scratch3Reducer,
   lesson: lessonReducer,
+  lessonx: lessonxReducer,
   content: contentReducer,
   assignment: assignmentReducer,
   test: testReducer,
