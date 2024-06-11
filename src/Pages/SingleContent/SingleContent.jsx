@@ -75,7 +75,7 @@ const SingleContent = () => {
           <p>Tutor : {singleContent?.creator}</p> */}
         </div>
 
-        <div class="mx-auto w-full max-w-screen-xl">
+        <div class="mx-auto w-full max-w-screen-md">
         <h3 className="text-gray-700 text-l font-medium" style={{ fontSize: 'medium', fontWeight: 'normal' }}>Percabangan if</h3>
           <div class="relative" style={{ paddingTop: "75%", marginBottom: "20px"}}>
             <iframe src="https://www.youtube.com/embed/G-c0KnAgucc"

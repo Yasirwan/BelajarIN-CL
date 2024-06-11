@@ -29,7 +29,8 @@ import { MdLooksOne } from "react-icons/md";
 import { MdLooksTwo } from "react-icons/md";
 import { MdLooks3 } from "react-icons/md";
 import { IoGameController } from "react-icons/io5";
-import { MdLibraryBooks } from "react-icons/md";
+import { MdLibraryBooks, MdGrade } from "react-icons/md";
+import { BsFillInfoSquareFill } from "react-icons/bs";
 
 // CSS imports
 import "./Navbar.css";
@@ -80,8 +81,8 @@ const Navbar = ({ children }) => {
     ]},
   
     { icon: <GrTasks />, title: "Posttest", address: "/test/66430940d161a10cf56217b5" },
-
-    // { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
+    { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
+    { icon: <BsFillInfoSquareFill  />, title: "Grades", address: "/lessonsx" },
   ];
   const studentData = [
     { icon: <RiHomeSmileFill  />, title: "Dashboard", address: "/home" },
@@ -108,7 +109,7 @@ const Navbar = ({ children }) => {
     ]},
     { icon: <GrTasks />, title: "Posttest", address: "/test/66430940d161a10cf56217b5" },
 
-    // { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
+    { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
   ];
 
   // Dropdown menu
@@ -200,14 +201,14 @@ const Navbar = ({ children }) => {
             {userType == "Student" ? (
               premium == "false" ? (
                 <Link href="/" className="nav-link font-sans">
-                  Welcome to BelajarIN
+                  Hello Students
                 </Link>
               ) : (""
               )
             ) : (
               <Link href="/" className="nav-link font-sans">
-                Welcome to BelajarIN
-              </Link>
+                  Hello Students
+                  </Link>
             )}
           </div>
           <div>

@@ -210,7 +210,7 @@ const Scratchs3 = () => {
           <h3 className="text-white font-bold text-center">Quizziz</h3>
         </div>
 
-        <div class="mx-auto w-full max-w-screen-xl">
+        <div class="mx-auto w-full max-w-screen-md">
           <div class="relative" style={{ paddingTop: "75%" }}>
             <iframe src="https://quizizz.com/join?gc=99043720" allowtransparency="true" className="absolute inset-0 w-full h-full" frameBorder="0" scrolling="yes" allowFullScreen></iframe>
           </div>
