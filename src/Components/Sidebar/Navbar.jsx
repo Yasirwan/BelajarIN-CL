@@ -81,8 +81,8 @@ const Navbar = ({ children }) => {
     ]},
   
     { icon: <GrTasks />, title: "Posttest", address: "/test/66430940d161a10cf56217b5" },
-    { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
-    { icon: <BsFillInfoSquareFill  />, title: "Grades", address: "/lessonsx" },
+    // { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
+    { icon: <BsFillInfoSquareFill  />, title: "Info", address: "/lessonsx" },
   ];
   const studentData = [
     { icon: <RiHomeSmileFill  />, title: "Dashboard", address: "/home" },
@@ -109,7 +109,8 @@ const Navbar = ({ children }) => {
     ]},
     { icon: <GrTasks />, title: "Posttest", address: "/test/66430940d161a10cf56217b5" },
 
-    { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
+    // { icon: <MdGrade  />, title: "Grades", address: "/leaderboard" },
+    { icon: <BsFillInfoSquareFill  />, title: "Info", address: "/lessonsx" },
   ];
 
   // Dropdown menu
