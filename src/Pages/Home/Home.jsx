@@ -140,7 +140,7 @@ const Home = () => {
 
             <div className="leaderboardData m-0 w-full">
               <div className="chartHead bg-#920000 px-4 py-2 rounded-t-lg ">
-                <p className="text-gray-800 font-bold font-sans">Skor Teratas</p>
+                <p className="text-gray-800 font-bold font-sans">Skor</p>
               </div>
               {/* table */}
               <section className="tableBody">
