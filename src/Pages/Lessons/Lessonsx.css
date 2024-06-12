@@ -1,6 +1,7 @@
 .lessonsx {
   width: 100%;
   overflow-y: auto;
+  background-color: white;
 }
 .lessonsx::-webkit-scrollbar {
   display: none;
