@@ -2,7 +2,7 @@
   width: 100%;
   height: calc(100vh - 75px);
   overflow-y: auto;
-  background-color: var(--light);
+  background-color: white;
 }
 .singleContent::-webkit-scrollbar {
   display: none;

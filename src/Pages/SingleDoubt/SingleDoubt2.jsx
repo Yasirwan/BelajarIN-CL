@@ -87,7 +87,7 @@ const SingleDoubt2 = () => {
           {/* <p>Resolved : {singleDoubt?.resolved == "Yes" ? "Yes" : "No"}</p> */}
         {/* </div> */}
 
-        <div class="m-6 p-4 bg-white rounded-lg shadow-md">
+        <div class="m-6 p-4 bg-white border border-gray-200 rounded-lg shadow-md">
           <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
             <div class="flex flex-col md:flex-row md:items-center"> 
               <div class="overview-left mr-4 md:mr-8">
@@ -115,7 +115,7 @@ const SingleDoubt2 = () => {
           <h3 className="text-white font-bold text-center">Lembar Kerja Peserta Didik (LKPD)</h3>
         </div>
         
-        <div className="grid justify-items-center">
+        <div className="grid justify-items-center bg-white border border-gray-200 rounded-lg shadow-md mx-6 pb-4">
           <p className="p-4">Silahkan mengakses LKPD </p>
           <a target="_blank" href="https://docs.google.com/document/d/1jY2kj_ex-tgT1GmVWfqNV_NAkLC6yGvk/edit?usp=sharing&ouid=112525555696106018803&rtpof=true&sd=true" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">View</a>
         </div>
@@ -124,7 +124,7 @@ const SingleDoubt2 = () => {
           <h3 className="text-white font-bold text-center">Form Pengumpulan</h3>
         </div>
 
-        <div className="doubt2Responses bg-white rounded-lg p-4 my-2">
+        <div className="doubt2Responses bg-white border border-gray-200 rounded-lg shadow-md mx-6 pb-4">
           <form
             className="responseForm flex flex-col"
             onSubmit={(e) => handleSubmit(e, "PengetahuanAkhir")}
@@ -140,7 +140,7 @@ const SingleDoubt2 = () => {
               <input type="submit" className="bg-customBlue hover:bg-customBlue text-white py-2 px-4 rounded-2xl border-none max-w-md mx-auto" />
           </form>
         </div>
-
+<div className="mx-6">
 {singleDoubt2?.response?.map((data, i) => {
   if (user?.userType === "Admin") {
     return (
@@ -156,6 +156,7 @@ const SingleDoubt2 = () => {
     return null;
   }
 })}
+</div>
 
 
         {load ? (

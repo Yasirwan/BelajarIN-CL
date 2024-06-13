@@ -174,7 +174,7 @@ const Scratchs2 = () => {
 
   return (
     <Navbar>
-      <div className="scratchs2">
+      <div className="scratchs2 bg-white">
       <Header Title={"Session 2"} Address={"Session 2"} />
 
         {contextHolder}
@@ -184,7 +184,7 @@ const Scratchs2 = () => {
           })}
         </div> */}
 
-<div class="m-6 p-4 bg-white rounded-lg shadow-md">
+<div class="m-6 p-4 bg-white border border-gray-200 rounded-lg shadow-md">
 <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
   <div class="flex flex-col md:flex-row md:items-center"> 
     <div class="overview-left mr-4 md:mr-8">
@@ -207,7 +207,7 @@ const Scratchs2 = () => {
 </div>
 </div>
 
-<div className="scratch2Responses bg-customBlue rounded-lg p-4 my-2">
+<div className="scratch2Responses bg-customBlue rounded-lg p-4 my-2 mx-6">
           <h3 className="text-white font-bold text-center">Quizziz</h3>
         </div>
 

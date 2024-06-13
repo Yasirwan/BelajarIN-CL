@@ -146,7 +146,8 @@ const Lessonsx = () => {
             <div className="main-box">
 
               {/* about us bottom */}
-              <div className="main-center">
+            <p className="title text-white bg-customBlue w-full p-4 mx-6 rounded-md mt-6 text-md">About Me</p>
+              <div className="main-center mx-6">
 
                 {/* about us bottom salsa */}
                 {/* <div
@@ -169,14 +170,13 @@ const Lessonsx = () => {
                   </a>
                   </div>
                   </div> */}
-                <div className="profile-text rounded-lg px-8 py-3  w-full">
-                  <h1 className="title text-customBlue my-4">ABOUT ME</h1>
+                <div className="profile-text rounded-lg px-8 py-3 w-full bg-white border border-gray-200 rounded-lg shadow-md">
                 <div className=" text-left flex flex-row">
                 <div className="w-2/5 flex justify-center items-center pr-8">
                 <img src={ava_yasir} alt="Salsa" />
                 </div>
                 <div className="w-3/5">
-                <h1 className="title mt-4 text-black">Hi There! I'm Muhamad Yasirwan Dwi Cahyono</h1>
+                <h1 className="title mt-6 text-black">Hi There! I'm Muhamad Yasirwan Dwi Cahyono</h1>
                 <h1 className="font-bold pb-4 text-lg text-customBlue">Fullstack Web Developer</h1>
                 <p>Experienced full-stack web developer in designing, building, and maintaining dynamic and scalable web applications. Possesses strong front-end and back-end skills, with a focus on MERN stack. Passionate about working in a collaborative and results-oriented team to create innovative and impactful digital solutions.</p>
                 <table>
@@ -217,9 +217,10 @@ const Lessonsx = () => {
           {/* end about us */}
 
           {/* leaderboard */}
-          <div className="credential">
+          <div className="credential ">
           <div className="credits" data-aos="fade-down" data-aos-delay="500">
-            <h1 className="title text-customBlue">CREDITS</h1>
+            <h1 className="title text-white bg-customBlue w-full p-4 mx-6 rounded-md mt-6 text-md">Credit</h1>
+            <div className="bg-white border border-gray-200 rounded-lg shadow-md mx-6 p-4 mb-4">
             <p>https://youtu.be/6dAAX5B85PM?si=U5XB_9wkFiDUJipN</p>
             <p>https://youtu.be/6dAAX5B85PM?si=qJOXnETheq-cV0ZI</p>
             <p>https://youtu.be/_lxIFFLFdBk?si=LRlcpZKzra5BXHPm</p>
@@ -231,6 +232,7 @@ const Lessonsx = () => {
             <p>https://youtu.be/uqVJc9lLknA?si=jwF0cO6rlQ9FFngt</p>
             <p>https://youtu.be/of6gKz-0nQM?si=odI7y7Ld1fKNTl5w</p>
             <p>https://youtu.be/XiRgSeKiYew?si=V7LxJ7fveivuMH1U</p>
+            </div>
           </div>
           <div className="table-container" data-aos="fade-up" data-aos-delay="500">
             <div id="highScores" className="flex-center flex-column">

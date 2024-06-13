@@ -114,7 +114,7 @@ const Admin = () => {
         {/* header component  */}
 
         {/* table component  */}
-        <div className="adminData">
+        <div className="adminData bg-white border border-gray-200 rounded-lg shadow-md">
           <Table Data={admins} />
         </div>
 

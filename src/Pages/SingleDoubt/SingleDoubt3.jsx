@@ -87,7 +87,7 @@ const SingleDoubt3 = () => {
           {/* <p>Resolved : {singleDoubt?.resolved == "Yes" ? "Yes" : "No"}</p> */}
         {/* </div> */}
 
-        <div class="m-6 p-4 bg-white rounded-lg shadow-md">
+        <div class="m-6 p-4 bg-white border border-gray-200 rounded-lg shadow-md">
           <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
             <div class="flex flex-col md:flex-row md:items-center"> 
               <div class="overview-left mr-4 md:mr-8">
@@ -116,7 +116,7 @@ const SingleDoubt3 = () => {
           <h3 className="text-white font-bold text-center">Lembar Kerja Peserta Didik (LKPD)</h3>
         </div>
 
-        <div className="grid justify-items-center">
+        <div className="grid justify-items-center bg-white border border-gray-200 rounded-lg shadow-md mx-6 pb-4">
           <p className="p-4">Silahkan mengakses LKPD </p>
           <a target="_blank" href="https://docs.google.com/document/d/1Bwnms70dF0CpuFR6P2PQHTE2TnuXCgUj/edit?usp=sharing&ouid=112525555696106018803&rtpof=true&sd=true" class="inline-block bg-cyan-400 text-white font-bold py-2 px-4 rounded-md">View</a>
         </div>
@@ -125,7 +125,7 @@ const SingleDoubt3 = () => {
           <h3 className="text-white font-bold text-center">Form Pengumpulan</h3>
         </div>
 
-        <div className="doubt3Responses bg-white rounded-lg p-4 my-2">
+        <div className="doubt3Responses bg-white border border-gray-200 rounded-lg shadow-md mx-6 pb-4">
           <form
             className="responseForm flex flex-col"
             onSubmit={(e) => handleSubmit(e, "PengetahuanAkhir")}
@@ -146,9 +146,9 @@ const SingleDoubt3 = () => {
           <h3 className="text-white font-bold text-center">Form Tanggapan Multimedia Interaktif</h3>
         </div>
 
-        <div className="singleContentDetails ">
+        <div className="singleContentDetails bg-white border border-gray-200 rounded-lg shadow-md">
       
-      <div className="flex justify-center">
+      <div className="flex justify-center ">
         <div className="w-full md:w-1/2 p-4">
           <div class="grid justify-items-center">
             <p className="p-4">Silahkan klik tombol Start untuk memulai</p>
@@ -157,7 +157,7 @@ const SingleDoubt3 = () => {
         </div>
       </div>
     </div>
-
+<div className="mx-6">
 {singleDoubt3?.response?.map((data, i) => {
   if (user?.userType === "Admin") {
     return (
@@ -173,6 +173,7 @@ const SingleDoubt3 = () => {
     return null;
   }
 })}
+</div>
 
 
         {load ? (

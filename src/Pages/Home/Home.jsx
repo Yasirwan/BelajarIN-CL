@@ -137,8 +137,7 @@ const Home = () => {
 
           {/* Bar nd Pie Chart */}
           <div className="charts ">
-
-            <div className="leaderboardData m-0 w-full">
+            <div className="leaderboardData bg-white border border-gray-200 rounded-lg shadow-md float-left h-full w-full" >
               <div className="chartHead bg-#920000 px-4 py-2 rounded-t-lg ">
                 <p className="text-gray-800 font-bold font-sans">Skor</p>
               </div>

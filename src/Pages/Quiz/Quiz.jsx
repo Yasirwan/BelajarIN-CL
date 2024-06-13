@@ -123,7 +123,7 @@ const Quiz = () => {
       <div className="singleTest">
       <Header Title={"Test"} Address={"Test"} />
 
-      <div class="m-6 p-4 ">
+      <div class="m-6 p-4 bg-white border border-gray-200 rounded-lg shadow-md">
           <div class="container mx-auto px-2 py-4 flex flex-row items-center justify-center">
             <div class="flex flex-col md:flex-row md:items-center"> 
               <div class="overview-left mr-4 md:mr-8">
@@ -145,13 +145,13 @@ Terima kasih dan Selamat mengerjakan
           </div>
         </div>
 
-        <div className="singleContentDetails border-solid border-2 border-customBlue">
-          <h3 className="text-black font-bold text-center">Form Postest</h3>
+        <div className="singleContentDetails bg-customBlue">
+          <h3 className="text-white font-bold text-center">Form Postest</h3>
         </div>
 
-        <div className="singleContentDetails ">
+        <div className="singleContentDetails bg-white border border-gray-200 rounded-lg shadow-md">
 
-      <div className="flex justify-center">
+      <div className="flex justify-center ">
         <div className="w-full md:w-1/2 p-4">
           <div class="flex items-center justify-center">
           <span className="p-1">Silahkan klik  </span><a target="_blank" href="https://forms.gle/gUDupXHjAJYTu24L7" class="inline-block font-medium hover:font-semibold focus:font-semibold  ">Start</a><span className="p-1"> untuk memulai test</span>
