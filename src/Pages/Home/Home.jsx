@@ -157,7 +157,7 @@ const Home = () => {
                         <tr className="tableRow">
                           <td className="font-sans">{data.class}</td>
                           <td className="font-sans">{data.name}</td>
-                          <td className="font-sans">{data.totalScore}</td>
+                          <td className="font-sans">{data.totalPoints}</td>
                         </tr>
                       ))}
                   </tbody>
