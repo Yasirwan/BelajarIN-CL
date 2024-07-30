@@ -205,7 +205,6 @@ const Lessonsx = () => {
                   </tr>
                   </tbody>
                 </table>
-                <a target="_blank" href="https://drive.google.com/file/d/1_xOxlyqG0c_euccaBZnFkS1IINASUuY2/view" class="rounded-md py-2 px-4 flex bg-customBlue w-1/4 items-center text-white justify-center cursor-pointer text-custom-red hover:transition hover:duration-150 hover:transform hover:translate-y-1 mt-2 mb-4 mt-4">Download CV</a>
                 </div>
                 </div>
                 </div>

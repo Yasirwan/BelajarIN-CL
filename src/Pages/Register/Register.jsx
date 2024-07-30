@@ -111,15 +111,19 @@ const Register = () => {
                   className="p-2 my-2 border border-gray-300 rounded-md font-sans"
                 />
                 <p className="after:content-['*'] after:ml-0.5 after:text-red-500 block text-sm font-medium text-slate-700">Insert Your Class</p>
-                <input
-                  required
-                  name="studentClass"
-                  value={formData.studentClass}
-                  onChange={handleFormChange}
-                  type="text"
-                  placeholder="Class"
-                  className="p-2 my-2 border border-gray-300 rounded-md font-sans"
-                />
+                <select
+                required
+                name="studentClass"
+                value={formData.studentClass}
+                onChange={handleFormChange}
+                className="p-2 my-2 font-sans"
+                // Anda juga dapat menambahkan kelas Tailwind pada elemen select
+              >
+                <option value=""></option>
+                <option value="class">X-Oracle</option>
+                
+                {/* <option value="tutor">Guest</option> */}
+                </select>
                 <div style={{ textAlign: 'center' }}>
                 <button type="submit" className="px-10 py-2 my-4 font-sans bg-sky-500 hover:bg-sky-700 rounded-md font-medium text-white">Register</button>
                 <p className="">______________Or_______________</p>
