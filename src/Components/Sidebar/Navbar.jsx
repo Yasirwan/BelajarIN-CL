@@ -118,7 +118,7 @@ const Navbar = ({ children }) => {
     {
       key: "1",
       label:
-      <span className="text-center block" style={{ borderBottom: "1px solid rgb(231, 231, 231)" }}>
+      <span className="text-right block" style={{ borderBottom: "1px solid rgb(231, 231, 231)" }}>
       <p>{name}</p>
       <p> as {userType} </p>
       </span>,
@@ -221,10 +221,8 @@ const Navbar = ({ children }) => {
               <Link href="/" className="profile font-sans">
                 <img src={user} />
                 <div>
-                  <p className="font-sans">{name}..</p>
-                  <p className="font-sans">
-                    {userType} <GoChevronDown />
-                  </p>
+                  <p className="font-sans">{name}...</p>
+                  <p className="font-sans">{userType}<GoChevronDown /></p>
                 </div>
               </Link>
             </Dropdown>
